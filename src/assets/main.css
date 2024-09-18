@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background: #111111;
+  height: 100%;
+  width: 100%;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  color: #faf8ff;
+}
+
+h1,
+.h1 {
+  @apply text-3xl font-medium tracking-tighter	 
+}
+
+h2 {
+  color: #8685ef
+}
+
+h3 {
+  font-weight: 500;
+  color: #d3fbd8
+}
