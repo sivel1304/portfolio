@@ -1,16 +1,16 @@
 <template>
-  <div class="p-4 h-screen w-screen">
+  <div class="h-screen w-full">
     <nav>
       <NavBar></NavBar>
     </nav>
     <header>
       <NameHeader></NameHeader>
     </header>
-    
-    <main class="flex flex-col w-11/12 mx-auto mt-10">
+
+    <main class="flex flex-col w-full mx-auto mt-10">
       <PortSection title="About Me"></PortSection>
-      <PortSection title="Projects"></PortSection>
-      <PortSection title="Andet?"></PortSection>
+      <PortSection class="bg-secondary" title="Projects"></PortSection>
+      <PortSection class="bg-third" title="Andet?"></PortSection>
     </main>
   </div>
 </template>
