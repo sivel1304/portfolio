@@ -1,16 +1,18 @@
 <template>
   <div class="h-screen w-full">
+    <header class="fixed min-h-[35rem] top-0 left-0 right-0">
     <nav>
       <NavBar></NavBar>
     </nav>
-    <header>
       <NameHeader></NameHeader>
     </header>
 
-    <main class="flex flex-col w-full mx-auto mt-10">
-      <PortSection class="text-primary" title="About Me"></PortSection>
-      <PortSection class="text-secondary" title="Projects"></PortSection>
-      <PortSection class="text-third" title="Andet?"></PortSection>
+    <main class="relative z-10 mt-[calc(100vh-110px)]">
+<div class="flex flex-col w-full mx-auto">
+      <PortSection class="text-secondary" title="About Me"></PortSection>
+      <PortSection class="text-third" title="Projects"></PortSection>
+      <PortSection class="text-primary" title="Andet?"></PortSection>
+</div>
     </main>
   </div>
 </template>

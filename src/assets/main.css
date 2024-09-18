@@ -17,14 +17,15 @@ body {
 
 h1,
 .h1 {
-  @apply text-3xl font-medium tracking-tighter
+  @apply text-5xl font-semibold tracking-tighter
 }
 
-h2 {
-  color: #8685ef
+h2,
+.h2 {
+  @apply text-4xl font-medium tracking-tighter
 }
 
-h3 {
-  font-weight: 500;
-  color: #d3fbd8
+h3,
+.h3 {
+  @apply text-2xl font-medium tracking-tighter
 }
