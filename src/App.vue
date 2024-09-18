@@ -8,9 +8,9 @@
     </header>
 
     <main class="flex flex-col w-full mx-auto mt-10">
-      <PortSection title="About Me"></PortSection>
-      <PortSection class="bg-secondary" title="Projects"></PortSection>
-      <PortSection class="bg-third" title="Andet?"></PortSection>
+      <PortSection class="text-primary" title="About Me"></PortSection>
+      <PortSection class="text-secondary" title="Projects"></PortSection>
+      <PortSection class="text-third" title="Andet?"></PortSection>
     </main>
   </div>
 </template>
