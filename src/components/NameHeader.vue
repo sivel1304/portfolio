@@ -1,6 +1,6 @@
 <template>
-    <div class="h-[calc(100vh-110px)] mx-16 flex items-center justify-between">
-        <div>
+    <div class="h-[calc(100vh-110px)] mx-4 2xl:mx-20 flex items-center justify-between">
+        <div class="w-2/3">
             <h1>Viktor Nielsen</h1>
             <h3 class="text-primary"> IT-Product Development Master</h3>
         </div>
