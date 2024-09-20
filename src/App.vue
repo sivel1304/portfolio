@@ -7,11 +7,11 @@
       <NameHeader></NameHeader>
     </header>
 
-    <main class="relative z-10 mt-[calc(100vh-110px)]">
+    <main class="relative z-10 mt-[calc(100vh-74px)]">
 <div class="flex flex-col w-full mx-auto">
-      <PortSection class="text-secondary" title="About Me"></PortSection>
-      <PortSection class="text-third" title="Projects"></PortSection>
-      <PortSection class="text-primary" title="Andet?"></PortSection>
+      <PortSection class="bg-secondary" title="About Me"></PortSection>
+      <PortSection class="bg-third" title="Projects"></PortSection>
+      <PortSection class="bg-primary" title="Andet?"></PortSection>
 </div>
     </main>
   </div>

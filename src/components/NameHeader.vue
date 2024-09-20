@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[calc(100vh-110px)] mx-10 2xl:mx-20 flex items-center justify-between">
+    <div class="h-[calc(100vh-146px)] mx-10 2xl:mx-20 flex items-center justify-between">
         <div class="w-2/3">
             <h1>Viktor Nielsen</h1>
             <h3 class="text-primary"> Master in IT-Product Development</h3>
