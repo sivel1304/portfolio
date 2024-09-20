@@ -9,9 +9,9 @@
 
     <main class="relative z-10 mt-[calc(100vh-74px)]">
 <div class="flex flex-col w-full mx-auto">
-      <PortSection class="bg-secondary" title="About Me"></PortSection>
-      <PortSection class="bg-third" title="Projects"></PortSection>
-      <PortSection class="bg-primary" title="Andet?"></PortSection>
+      <PortSection class="bg-primary" title="About Me" text-color="text-primary" :isTextLeft="false"></PortSection>
+      <PortSection class="bg-secondary" title="Projects" text-color="text-secondary" :isTextLeft="true"></PortSection>
+      <PortSection class="bg-third" title="Andet?" text-color="text-third" :isTextLeft="false"></PortSection>
 </div>
     </main>
   </div>

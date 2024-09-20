@@ -2,11 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'PP Neue Montreal Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Book'), url('ppneuemontreal-book.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'PP Neue Montreal Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Italic'), url('ppneuemontreal-italic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'PP Neue Montreal Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Thin'), url('ppneuemontreal-thin.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'PP Neue Montreal Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Medium'), url('ppneuemontreal-medium.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'PP Neue Montreal SemiBold italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal SemiBold italic'), url('ppneuemontreal-semibolditalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'PP Neue Montreal Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Bold'), url('ppneuemontreal-bold.woff') format('woff');
+}
+
 html {
   background: #111111;
   letter-spacing: 0.05em;
   line-height: 1;
-  font-family: "Rubik", sans-serif;
+  font-family: 'PP Neue Montreal Book', "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -17,7 +64,7 @@ body {
 
 h1,
 .h1 {
-  @apply text-3xl font-semibold tracking-tighter
+  @apply text-3xl font-medium tracking-normal
 }
 
 h2,
