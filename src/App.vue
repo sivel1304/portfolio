@@ -9,9 +9,27 @@
 
     <main class="relative z-10 pt-[calc(100vh-74px)] snap-start">
     <div class="flex flex-col w-full mx-auto snap-start">
-      <PortSection class="bg-primary snap-always snap-start" title="About Me" text-color="text-primary" :isTextLeft="false"></PortSection>
-      <PortSection class="bg-secondary snap-always snap-start" title="Projects" text-color="text-secondary" :isTextLeft="true"></PortSection>
-      <PortSection class="bg-third snap-start" title="Andet?" text-color="text-third" :isTextLeft="false"></PortSection>
+      <PortSection class="bg-primary snap-always snap-start" title="About Me" text-color="text-primary" :isTextLeft="false">
+      <template v-slot:left>
+    <p class="opacity-70">link til insta her</p>
+  </template>
+  <template v-slot:right>
+    <p class="opacity-70">tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her tekst her</p>
+  </template>
+      </PortSection>
+
+      <PortSection class="bg-secondary snap-always snap-start" title="Projects" text-color="text-secondary" :isTextLeft="true">
+      <template v-slot:left>
+    <p class="opacity-70">blablablablabal</p>
+  </template>
+  <template v-slot:right>
+   <p class="opacity-70">3d model eller billede her</p>
+  </template>
+      </PortSection>
+
+      <PortSection class="bg-third snap-start" title="Andet?" text-color="text-third" :isTextLeft="false">
+
+      </PortSection>
     </div>
     </main>
   </div>
