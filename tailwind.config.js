@@ -18,6 +18,9 @@ export default {
       'xl': 'clamp(1.95rem, 2.52vi + 1.32rem, 3.7rem)',
       '2xl': 'clamp(2.44rem, 3.59vi + 1.54rem, 4.93rem)',
       '3xl' : 'clamp(3.05rem, 5.08vi + 1.78rem, 6.58rem)'
+    },
+    fontFamily: {
+      'inter': ['Inter', 'PP Neue Montreal Book', 'sans-serif'],
     }
   },
   plugins: [],

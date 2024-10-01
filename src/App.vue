@@ -2,12 +2,12 @@
   <div class="h-screen w-full overflow-auto snap-proximity snap-y">
     <header class="fixed min-h-[35rem] top-0 left-0 right-0 snap-always snap-start">
     <nav>
-      <NavBar></NavBar>
+      <NavBar class="absolute"></NavBar>
     </nav>
       <NameHeader></NameHeader>
     </header>
 
-    <main class="relative z-10 pt-[calc(100vh-74px)] snap-start">
+    <main class="relative z-10 pt-[100vh] snap-start">
     <div class="flex flex-col w-full mx-auto snap-start">
       <PortSection class="bg-primary snap-always snap-start" title="About Me" text-color="text-primary" :isTextLeft="false">
       <template v-slot:left>
