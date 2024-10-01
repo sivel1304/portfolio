@@ -36,7 +36,7 @@
 </template>
 
 <script setup>
-import NameHeader from './components/NameHeader.vue';
+import NameHeader from './components/NameHeader3.vue';
 import PortSection from './components/PortSection.vue';
 import NavBar from './components/NavBar.vue';
 </script>
