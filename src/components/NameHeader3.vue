@@ -10,16 +10,16 @@
         <div class="absolute -z-20">
             <div class="flex justify-start overflow-hidden whitespace-nowrap">
                 <h1
-                    class="text-3xl animate-text-roll font-inter tracking-[0.45em] font-bold text-center opacity-10">
+                    class="text-3xl animate-text-roll font-inter tracking-[0.45em] font-bold text-center opacity-10 blur-[2px]">
                     VIKTORNIELSEN</h1>
                 <h1
-                    class="text-3xl animate-text-roll font-inter tracking-[0.45em] font-bold text-center opacity-10">
+                    class="text-3xl animate-text-roll font-inter tracking-[0.45em] font-bold text-center opacity-10 blur-[2px]">
                     VIKTORNIELSEN</h1>
                 <h1
-                    class="text-3xl animate-text-roll font-inter tracking-[0.45em] font-bold text-center opacity-10">
+                    class="text-3xl animate-text-roll font-inter tracking-[0.45em] font-bold text-center opacity-10 blur-[2px]">
                     VIKTORNIELSEN</h1>
                 <h1
-                    class="text-3xl animate-text-roll font-inter tracking-[0.45em] font-bold text-center opacity-10">
+                    class="text-3xl animate-text-roll font-inter tracking-[0.45em] font-bold text-center opacity-10 blur-[2px]">
                     VIKTORNIELSEN</h1>
             </div>
             <div class="flex transform -scale-x-100 -scale-y-100 justify-start overflow-hidden whitespace-nowrap">

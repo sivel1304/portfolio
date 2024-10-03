@@ -24,7 +24,7 @@ export default {
       'inter': ['Inter', 'PP Neue Montreal Book', 'sans-serif'],
     },
     animation: {
-      'text-roll': 'textRoll 10s linear infinite',
+      'text-roll': 'textRoll 15s linear infinite',
     },
     keyframes: {
       textRoll: {
