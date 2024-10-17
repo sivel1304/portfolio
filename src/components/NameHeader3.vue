@@ -1,6 +1,6 @@
 <template>
     <div class="h-screen w-screen flex flex-col items-center justify-center">
-        <h1 class="text-xl font-inter tracking-normal font-light text-center">VIKTOR NIELSEN</h1>
+        <h1 class="text-xl font-inter tracking-tight font-medium text-center">VIKTOR NIELSEN</h1>
         <h3 class="opacity-80 font-inter font-thin text-md tracking-tight text-center"> Master in IT-Product
             Development</h3>
 
