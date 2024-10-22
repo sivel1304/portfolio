@@ -53,9 +53,13 @@ html {
   background: #111111;
   letter-spacing: 0.05em;
   line-height: 1;
-  font-family: 'PP Neue Montreal Book', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+html,
+.html {
+  @apply font-inter
 }
 
 body {
@@ -69,7 +73,7 @@ h1,
 
 h2,
 .h2 {
-  @apply text-2xl font-medium tracking-tighter
+  @apply text-2xl font-light tracking-tighter
 }
 
 h3,
@@ -79,5 +83,5 @@ h3,
 
 p,
 .p {
-  @apply text-base font-normal tracking-normal
+  @apply text-base font-extralight tracking-normal
 }
