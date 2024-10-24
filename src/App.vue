@@ -1,13 +1,13 @@
 <template>
-  <div class="h-screen w-screen overflow-auto snap-proximity snap-y">
-    <nav>
-      <NavBar class="absolute z-10"></NavBar>
+  <div class="h-fit w-full snap-proximity snap-y">
+    <nav class="snap-none">
+      <NavBar class="fixed z-10"></NavBar>
     </nav>
-    <header class="fixed z-0 min-h-[35rem] top-0 left-0 right-0 snap-always snap-start">
+    <header class="fixed z-0 min-h-[35rem] top-0 left-0 right-0 snap-none">
       <NameHeader></NameHeader>
     </header>
 
-    <main class="relative w-full z-20 pt-[100vh] snap-start">
+    <main class="relative w-full z-20 top-[100vh] snap-start">
       <div class="flex flex-col w-full mx-auto snap-start">
         <PortSection class="bg-backgrund-900 snap-always snap-start" title="About Me" text-color="text-primary"
           :isTextLeft="false">
