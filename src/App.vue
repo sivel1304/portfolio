@@ -12,23 +12,37 @@
         <PortSection class="bg-backgrund-900 snap-always snap-start" title="About Me" text-color="text-primary"
           :isTextLeft="false">
           <template v-slot:left>
-            <p class="opacity-70">link til insta her</p>
+          <div class="">
+            <h4 class="opacity-30 mb-1">Degrees</h4>
+            <h4 class="opacity-100 tracking-normal">Bachelor in IT-Product Development</h4>
+            <h4 class="opacity-100 tracking-normal">Master in IT-Product Development</h4>
+          </div>
+
+          <div class="mt-4">
+            <h4 class="opacity-30 mb-1">Contact Me</h4>
+              <h4 class="opacity-100 tracking-normal">LinkedIn, Instagram, Email</h4>
+          </div>
           </template>
           <template v-slot:right>
-            <p class="opacity-90">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            <p class="opacity-90 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
               laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip
               ex ea commodo consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
               laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip
               ex ea commodo consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in
+              consequat. Lorem ipsum dolor sit amet, Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip ex ea commodo
+              consequat. Lorem ipsum dolor sit amet,
             </p>
+
+<!--             <a href="https://www.w3schools.com" class="mt-4 underline underline-offset-4 text-primary"><p class="">Learn More</p></a>
+ -->
           </template>
         </PortSection>
 
