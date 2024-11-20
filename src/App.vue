@@ -20,7 +20,7 @@
 
           <div class="mt-4">
             <h4 class="opacity-30 mb-1">Contact Me</h4>
-              <h4 class="opacity-100 tracking-normal">LinkedIn, Instagram, Email</h4>
+              <a href="viktor00@live.dk" class="underline"><h4 class="opacity-100 tracking-normal">LinkedIn or Email</h4></a>
           </div>
           </template>
           <template v-slot:right>
@@ -41,8 +41,8 @@
               consequat. Lorem ipsum dolor sit amet,
             </p>
 
-<!--             <a href="https://www.w3schools.com" class="mt-4 underline underline-offset-4 text-primary"><p class="">Learn More</p></a>
- -->
+<a href="https://www.w3schools.com" class="mt-4 underline underline-offset-4 text-primary"><p class="">Learn More</p></a>
+
           </template>
         </PortSection>
 
