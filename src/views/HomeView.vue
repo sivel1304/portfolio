@@ -1,5 +1,5 @@
 <template>
-  <div class="h-fit w-full snap-proximity snap-y">
+  <div class="h-fit w-full snap-proximity snap-y scrollbar-hidden">
     <header class="fixed z-0 min-h-[35rem] top-0 left-0 right-0 snap-none">
       <NameHeader></NameHeader>
     </header>
@@ -16,9 +16,12 @@
           </div>
 
           <div class="mt-4">
-            <h4 class="opacity-30 mb-1">Contact Me</h4>
-              <a href="viktor00@live.dk" class="underline"><h4 class="opacity-100 tracking-normal">LinkedIn or Email</h4></a>
+            <h4 class="opacity-30 mb-1">Skills</h4>
+              <h4 class="opacity-100 tracking-normal">Java, Javascript, C/C++, ...</h4>
           </div>
+
+<!--           <ButtonPrimary title="Contact Me" text-color="text-primary"></ButtonPrimary>
+ -->
           </template>
           <template v-slot:right>
             <p class="opacity-90 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -37,8 +40,7 @@
               ex ea commodo consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip ex ea commodo
               consequat. Lorem ipsum dolor sit amet,
             </p>
-
-<a href="/about" class="mt-4 underline underline-offset-4 text-primary"><p class="">Learn More</p></a>
+            <a href="/about" class="mt-4 underline underline-offset-4 text-primary"><p class="">Learn More</p></a>
 
           </template>
         </PortSection>
@@ -64,4 +66,6 @@
 <script setup>
 import NameHeader from '../components/NameHeader3.vue';
 import PortSection from '../components/PortSection.vue';
+import ButtonPrimary from '../components/ButtonPrimary.vue';
+
 </script>

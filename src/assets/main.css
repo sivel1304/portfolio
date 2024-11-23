@@ -55,6 +55,9 @@ html {
   line-height: 1;
   font-optical-sizing: auto;
   font-style: normal;
+  overflow: -moz-scrollbars-none; /* For older Firefox versions */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox 64+ */
 }
 
 html,
@@ -64,6 +67,10 @@ html,
 
 body {
   color: #faf8ff;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari, and newer Edge */
 }
 
 h1,
