@@ -1,5 +1,5 @@
 <template>
-  <div class="h-fit w-full snap-proximity snap-y">
+  <div class="h-fit w-full snap-proximity snap-y scrollbar-hidden">
     <nav class="snap-none">
       <NavBar class="fixed z-10"></NavBar>
     </nav>

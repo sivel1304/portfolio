@@ -6,8 +6,8 @@
     </div>
     <div class="flex flex-col" :class="isTextLeft ? 'w-1/3':'w-2/3'">
       <slot name="right"></slot>
-      <ButtonPrimary title="Learn More" :text-color="textColor"></ButtonPrimary>
-    </div>
+<!--       <ButtonPrimary title="Learn More" :text-color="textColor"></ButtonPrimary>
+ -->    </div>
 
   </div>
 </template>
