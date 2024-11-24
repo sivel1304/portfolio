@@ -5,6 +5,7 @@
     <ProjectPlankPlunge></ProjectPlankPlunge>
     <ProjectSection class="bg-primary" title="SitMan" textColor=""></ProjectSection>
     <ProjectPortfolio></ProjectPortfolio>
+    <ProjectSection class="bg-primary" title="Other??" textColor="" :tools="['Hungry Monkey', 'Lamp', 'EKSYS', 'MIDI Controller', 'Fussball']"></ProjectSection>
   </div>
 </template>
 
