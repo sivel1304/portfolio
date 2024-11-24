@@ -6,25 +6,22 @@
       <slot name="description"> </slot>
 
       <h4 class="opacity-30 mb-1 mt-8">Tools Used</h4>
-      <ul class="list-disc list-inside w-full">
-        <li class="opacity-90">Game Engine: Unity 6</li>
-        <li class="opacity-90">Programming: C# in Visual Studio</li>
-        <li class="opacity-90">Sounds: Audacity, Waveform 13</li>
-        <li class="opacity-90">Sprites: ??</li>
+      <ul class="list-disc list-inside w-full *:opacity-90">
+        <li v-for="(tool, index) in tools" :key="index">{{ tool }}</li>
       </ul>
     </div>
     <div class="flex flex-col w-2/3">
-    <slot name="image"> </slot>
-
-  </div>
-
+      <div class="ml-8 w-fit h-auto rounded-sm shadow-lg">
+        <slot name="image"> </slot>
+      </div>
+    </div>
   </div>
 </template>
 
 <script setup>
-
 defineProps({
   title: String,
   textColor: String,
-})
+  tools: Array,
+});
 </script>
