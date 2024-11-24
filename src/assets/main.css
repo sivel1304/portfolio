@@ -97,3 +97,8 @@ p,
 .p {
   @apply text-sm font-extralight tracking-normal
 }
+
+li,
+.li {
+  @apply text-sm font-extralight tracking-normal
+}
