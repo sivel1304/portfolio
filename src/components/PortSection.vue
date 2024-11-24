@@ -20,4 +20,5 @@ defineProps({
   textColor: String,
   isTextLeft: Boolean,
 })
+
 </script>
