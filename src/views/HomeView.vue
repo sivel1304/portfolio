@@ -77,14 +77,6 @@
             <p class="opacity-90">3d model eller billede her</p>
           </template>
         </PortSection>
-
-        <PortSection
-          class="bg-third snap-start"
-          title="Andet?"
-          text-color="text-third"
-          :isTextLeft="false"
-        >
-        </PortSection>
       </div>
     </main>
   </div>
