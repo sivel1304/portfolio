@@ -55,8 +55,7 @@
               Lorem ipsum dolor sit amet,
             </p>
             <a href="/about" class="mt-4 underline underline-offset-4 text-primary"
-              ><p class="">Learn More</p></a
-            >
+              ><p class="">Learn More</p></a>
           </template>
         </PortSection>
 
@@ -68,7 +67,11 @@
           :isTextLeft="true"
         >
           <template v-slot:left>
-            <p class="">blablablablabal</p>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip .</p>
+              <a href="/projects" class="mt-4 underline underline-offset-4 text-white"><p class="">See All Projects</p></a>
           </template>
           <template v-slot:right>
             <p class="opacity-90">3d model eller billede her</p>

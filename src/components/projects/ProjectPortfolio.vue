@@ -2,7 +2,7 @@
   <ProjectSection
     class="bg-backgrund-900"
     title="This Website"
-    :tools="['Vue 3', 'Tailwind CSS', 'Javascript']"
+    :tools="['Vue 3', 'Tailwind CSS', 'Javascript', 'Three.js']"
   >
     <template v-slot:description>
       <p class="opacity-90">
