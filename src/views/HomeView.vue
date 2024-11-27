@@ -129,9 +129,14 @@ onMounted(() => {
       console.error(error);
     }
   ); */
+  const al = new THREE.AmbientLight(0xffffff, 0.8);
+  scene.add(al);
+  const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+  directionalLight.position.set(-2, 1, 2);
+  scene.add(directionalLight);
 
   const geometry = new THREE.BoxGeometry(2, 2, 2);
-  const material = new THREE.MeshBasicMaterial({ color: 0x111111 });
+  const material = new THREE.MeshStandardMaterial({ color: 0xffffff }); // Replace MeshBasicMaterial with MeshStandardMaterial
   const cube = new THREE.Mesh(geometry, material);
   scene.add(cube);
 
