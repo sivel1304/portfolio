@@ -4,3 +4,4 @@
 3. Lav aboutme view
 4. Lav Project sectionen på homeview færdig
 5. Lav alle project sections på projectview
+6. fiks udfra det her: <https://youtu.be/88XxC0_zs74?si=y8i5uRESuUIrYDg9>
