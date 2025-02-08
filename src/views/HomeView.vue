@@ -6,12 +6,8 @@
 
     <main class="relative w-full z-20 top-[100vh] snap-start">
       <div class="flex flex-col w-full mx-auto snap-start">
-        <PortSection
-          class="bg-backgrund-900 snap-always snap-start"
-          title="About Me"
-          text-color="text-primary"
-          :isTextLeft="false"
-        >
+        <PortSection class="bg-backgrund-900 snap-always snap-start" title="About Me" text-color="text-primary"
+          :isTextLeft="false">
           <template v-slot:left>
             <div class="">
               <h4 class="opacity-30 mb-1">Degrees</h4>
@@ -32,41 +28,31 @@
  -->
           </template>
           <template v-slot:right>
-            <p class="opacity-90">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in nisi ut aliquip
-              ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in nisi ut aliquip ex ea commodo consequat. Lorem
-              ipsum dolor sit amet, Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in nisi ut aliquip ex ea commodo consequat.
-              Lorem ipsum dolor sit amet,
+            <p class="opacity-90 font-extralight">
+              I’m Viktor, a passionate builder, developer, and problem solver. I'm 24 years old, and are currently
+              studied masters in IT-Product Development in Aarhus University. I love creating things—especially when
+              electronics and programming come into play. Whether it’s designing smart home systems, developing
+              interactive web applications, game development or experimenting with embedded systems like ATmega or ESP32, I’m always
+              exploring new ways to bring ideas to life.
+              <br>
+              My background in IT Product Development has given me experience in software development, hardware
+              integration, and user-centered design. Over the years, I’ve worked on a variety of projects, from
+              practical IT soltions and IoT devices to game development and automation systems. I enjoy pushing the
+              limits of what technology can do, exploring solutions for Extended Reality, crafting DIY
+              hardware solutions, or coding efficient and scalable software.
+              <br>
+              Outside of structured work and studies, I spend a lot of time on personal projects—building custom tools,
+              tinkering with electronics, and refining my skills in programming languages like Python, Java, and C++. If
+              you share an interest in creative tech solutions or have an exciting project idea, I’d love to connect!
             </p>
-            <a href="/about" class="mt-4 underline underline-offset-4 text-primary"
-              ><p class="">Learn More</p></a
-            >
+            <a href="/about" class="mt-4 underline underline-offset-4 text-primary">
+              <p class="">Learn More</p>
+            </a>
           </template>
         </PortSection>
 
-        <PortSection
-          id="projects"
-          class="bg-primary snap-always snap-start text-backgrund-900"
-          title="Projects"
-          text-color="text-backgrund-800"
-          :isTextLeft="true"
-        >
+        <PortSection id="projects" class="bg-primary snap-always snap-start text-backgrund-900" title="Projects"
+          text-color="text-backgrund-800" :isTextLeft="true">
           <template v-slot:left>
             <p class="">
               Here, you'll find a collection of programming and DIY projects I've created,
@@ -74,9 +60,9 @@
               robotics to smart home solutions and creative experiments, each project
               reflects my curiosity and dedication to learning. Dive in and explore!
             </p>
-            <a href="/projects" class="mt-4 underline underline-offset-4 text-white"
-              ><p class="">See All Projects</p></a
-            >
+            <a href="/projects" class="mt-4 underline underline-offset-4 text-white">
+              <p class="">See All Projects</p>
+            </a>
           </template>
           <template v-slot:right>
             <p class="opacity-90">3d model eller billede her</p>
