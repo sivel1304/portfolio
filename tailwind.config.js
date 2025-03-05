@@ -22,6 +22,7 @@ export default {
     },
     fontFamily: {
       'inter': ['Inter', 'PP Neue Montreal Book', 'sans-serif'],
+      'pp': ['PP Neue Montreal Book', 'Inter', 'sans-serif'],
     },
     animation: {
       'text-roll': 'textRoll 15s linear infinite',

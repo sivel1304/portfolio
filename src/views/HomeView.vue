@@ -1,58 +1,34 @@
 <template>
-  <div class="h-fit w-full snap-proximity snap-y scrollbar-hidden">
-    <header class="fixed z-0 min-h-[35rem] top-0 left-0 right-0 snap-none">
+  <div class="w-full scrollbar-hidden snap-mandatory snap-y overflow-auto h-[100vh] ">
+
+    <header class="snap-start min-h-[35rem] top-0 left-0 right-0">
       <NameHeader></NameHeader>
     </header>
 
-    <main class="relative w-full z-20 top-[100vh] snap-start">
-      <div class="flex flex-col w-full mx-auto snap-start">
-        <PortSection class="bg-backgrund-900 snap-always snap-start" title="About Me" text-color="text-primary"
-          :isTextLeft="false">
-          <template v-slot:left>
-            <div class="">
-              <h4 class="opacity-30 mb-1">Degrees</h4>
-              <h4 class="opacity-100 tracking-normal">
-                Bachelor in IT-Product Development
-              </h4>
-              <h4 class="opacity-100 tracking-normal">
-                Master in IT-Product Development
-              </h4>
-            </div>
+    <div class="relative">
 
-            <div class="mt-4">
-              <h4 class="opacity-30 mb-1">Skills</h4>
-              <h4 class="opacity-100 tracking-normal">Java, Javascript, C/C++, ...</h4>
-            </div>
+      <div class="absolute w-full h-full bg-backgrund-900/80 -z-10"></div>
 
-            <!--           <ButtonPrimary title="Contact Me" text-color="text-primary"></ButtonPrimary>
- -->
-          </template>
-          <template v-slot:right>
-            <p class="opacity-90 font-extralight">
-              I’m Viktor, a passionate builder, developer, and problem solver. I'm 24 years old, and are currently
-              studied masters in IT-Product Development in Aarhus University. I love creating things—especially when
-              electronics and programming come into play. Whether it’s designing smart home systems, developing
-              interactive web applications, game development or experimenting with embedded systems like ATmega or ESP32, I’m always
-              exploring new ways to bring ideas to life.
-              <br>
-              My background in IT Product Development has given me experience in software development, hardware
-              integration, and user-centered design. Over the years, I’ve worked on a variety of projects, from
-              practical IT soltions and IoT devices to game development and automation systems. I enjoy pushing the
-              limits of what technology can do, exploring solutions for Extended Reality, crafting DIY
-              hardware solutions, or coding efficient and scalable software.
-              <br>
-              Outside of structured work and studies, I spend a lot of time on personal projects—building custom tools,
-              tinkering with electronics, and refining my skills in programming languages like Python, Java, and C++. If
-              you share an interest in creative tech solutions or have an exciting project idea, I’d love to connect!
-            </p>
-            <a href="/about" class="mt-4 underline underline-offset-4 text-primary">
-              <p class="">Learn More</p>
-            </a>
-          </template>
-        </PortSection>
+      <div class="relative z-0 px-32">
 
-        <PortSection id="projects" class="bg-primary snap-always snap-start text-backgrund-900" title="Projects"
-          text-color="text-backgrund-800" :isTextLeft="true">
+        <div class=" w-full h-[1px] mt-10 bg-white rounded-full"></div>
+
+        <div class="snap-start flex h-[90vh] bg-backgrund-900 px-32 py-24">
+          <div class="w-1/3 h-full flex flex-col justify-evenly">
+            <p class="font-light leading-7 text-base">Hi, my name is Viktor Nielsen. I'm a 24 year old student currently
+              studying Masters in IT-Product Development on Aarhus University </p>
+            <p class="font-light leading-7 text-base">I love creating. Whether its software or hardware or even music. I
+              am always way doing a project</p>
+          </div>
+          <img src="../assets/stars.png" alt="stars" class="w-2/3 ml-12  object-cover">
+
+
+        </div>
+
+        <div class=" w-full h-[1px] bg-white rounded-full"></div>
+
+        <PortSection id="projects" class="snap-start bg-backgrund-900  text-white px-32" title="Projects" text-color="text-white"
+          :isTextLeft="true">
           <template v-slot:left>
             <p class="">
               Here, you'll find a collection of programming and DIY projects I've created,
@@ -65,16 +41,24 @@
             </a>
           </template>
           <template v-slot:right>
-            <p class="opacity-90">3d model eller billede her</p>
           </template>
         </PortSection>
+        <div class="h-[30vh] bg-backgrund-900 px-32">
+          <p>måske en liste af projekter her. og så trykker man på feks robot og så
+            kommer man ind på robot side, som feks det der sker her:</p>
+          <a href="https://www.ronilevi.com/" class="text-primary">linkkkk</a>
+          <br>
+          <a href="https://www.adamshams.com/ " class="text-primary">eller her</a>
+        </div>
       </div>
-    </main>
+    </div>
+
+
   </div>
 </template>
 
 <script setup>
-import NameHeader from "../components/NameHeader3.vue";
+import NameHeader from "../components/NameHeader5.vue";
 import PortSection from "../components/PortSection.vue";
 import { onMounted } from "vue"; // Import onMounted lifecycle hook
 import WebGL from "three/addons/capabilities/WebGL.js";
@@ -121,16 +105,29 @@ onMounted(() => {
   directionalLight.position.set(-2, 1, 2);
   scene.add(directionalLight);
 
-  const geometry = new THREE.BoxGeometry(2, 2, 2);
-  const material = new THREE.MeshStandardMaterial({ color: 0xffffff }); // Replace MeshBasicMaterial with MeshStandardMaterial
+  const geometry = new THREE.BoxGeometry(3, 3, 3);
+  const material = new THREE.MeshStandardMaterial({ color: 0xfaf8ff }); // Replace MeshBasicMaterial with MeshStandardMaterial
   const cube = new THREE.Mesh(geometry, material);
   scene.add(cube);
+
+  const cube2 = new THREE.Mesh(geometry, material);
+  scene.add(cube2);
+  const cube3 = new THREE.Mesh(geometry, material);
+  scene.add(cube3);
+
+  cube2.position.set(7, 0, -5)
+  cube3.position.set(-7, 0, -5)
+
 
   camera.position.z = 5;
 
   function animate() {
     cube.rotation.x += 0.01;
     cube.rotation.y += 0.01;
+    cube2.rotation.x -= 0.01;
+    cube2.rotation.y -= 0.01;
+    cube3.rotation.x -= 0.01;
+    cube3.rotation.y -= 0.01;
     renderer.render(scene, camera);
   }
 

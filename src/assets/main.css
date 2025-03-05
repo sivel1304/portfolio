@@ -95,7 +95,7 @@ h4,
 
 p,
 .p {
-  @apply text-sm font-extralight tracking-normal
+  @apply text-sm/6 font-extralight tracking-normal
 }
 
 li,
