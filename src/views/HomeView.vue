@@ -14,11 +14,13 @@
         <div class=" w-full h-[1px] mt-10 bg-white rounded-full"></div>
 
         <div class="snap-start flex h-[90vh] bg-backgrund-900 px-32 py-24">
-          <div class="w-1/3 h-full flex flex-col justify-evenly">
+          <div class="w-1/3 h-full flex flex-col">
+            <h2 class="text-3xl mb-8" >About Me</h2>
             <p class="font-light leading-7 text-base">Hi, my name is Viktor Nielsen. I'm a 24 year old student currently
               studying Masters in IT-Product Development on Aarhus University </p>
+              <br>
             <p class="font-light leading-7 text-base">I love creating. Whether its software or hardware or even music. I
-              am always way doing a project</p>
+              am always doing a project</p>
           </div>
           <img src="../assets/stars.png" alt="stars" class="w-2/3 ml-12  object-cover">
 
