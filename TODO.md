@@ -1,6 +1,7 @@
 # TODO List
 
 - ~~Ændre homeview til at være mere som ProjectView. Især med snapping. Det ligemeget med effekten hvor det går over billedet. Vi skal bare scrolle~~
+- Please sæt det op i figma
 - Lav aboutme view
   - fix stars
 - Lav Project sectionen på homeview færdig
