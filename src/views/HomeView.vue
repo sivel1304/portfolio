@@ -7,30 +7,46 @@
 
     <div class="relative">
 
-      <div class="absolute w-full h-full bg-backgrund-900/80 -z-10"></div>
+      <div class="absolute w-full h-full bg-backgrund-900 -z-10"></div>
 
-      <div class="relative z-0 px-32">
+      <div class="relative z-0 px-10">
 
         <div class=" w-full h-[1px] mt-10 bg-white rounded-full"></div>
 
-        <div class="snap-start flex h-[90vh] bg-backgrund-900 px-32 py-24">
+        <div class="snap-start flex h-[90vh] bg-backgrund-900 px-10 py-24 justify-between">
           <div class="w-1/3 h-full flex flex-col">
-            <h2 class="text-3xl mb-8" >About Me</h2>
+            <h2 class="text-3xl mb-8">About Me</h2>
             <p class="font-light leading-7 text-base">Hi, my name is Viktor Nielsen. I'm a 24 year old student currently
               studying Masters in IT-Product Development on Aarhus University </p>
-              <br>
+            <br>
             <p class="font-light leading-7 text-base">I love creating. Whether its software or hardware or even music. I
               am always doing a project</p>
           </div>
-          <img src="../assets/stars.png" alt="stars" class="w-2/3 ml-12  object-cover">
+          <img src="../assets/stars.png" alt="stars" class="w-1/2 ml-12  object-cover">
+
+
+        </div>
+
+        <div class=" w-full h-[1px] mt-10 bg-white rounded-full"></div>
+
+        <div class="snap-start flex h-[90vh] bg-backgrund-900 px-10 py-24 justify-between">
+          <div class="w-1/3 h-full flex flex-col">
+            <h2 class="text-2xl tracking-normal mb-8" >TATTOO ROBOT</h2>
+            <h2 class="text-2xl tracking-normal mb-8" >Tattoo Robot</h2>
+            <h2 class="text-2xl tracking-normal mb-8" >Tattoo Robot</h2>
+            <h2 class="text-2xl tracking-normal mb-8" >Tattoo Robot</h2>
+
+            
+          </div>
+          <img src="../assets/stars.png" alt="stars" class="w-1/2 ml-12  object-cover">
 
 
         </div>
 
         <div class=" w-full h-[1px] bg-white rounded-full"></div>
 
-        <PortSection id="projects" class="snap-start bg-backgrund-900  text-white px-32" title="Projects" text-color="text-white"
-          :isTextLeft="true">
+        <PortSection id="projects" class="snap-start bg-backgrund-900  text-white px-32" title="Projects"
+          text-color="text-white" :isTextLeft="true">
           <template v-slot:left>
             <p class="">
               Here, you'll find a collection of programming and DIY projects I've created,
