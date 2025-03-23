@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import ProjectSection from "../components/ProjectSection.vue";
+import ProjectSection from "../components/ProjectSection2.vue";
 import ProjectPlankPlunge from "../components/projects/ProjectPlankPlunge.vue";
 import ProjectPortfolio from "../components/projects/ProjectPortfolio.vue";
 import ProjectRobot from "../components/projects/ProjectRobot.vue";

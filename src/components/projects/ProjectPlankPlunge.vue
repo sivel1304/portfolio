@@ -34,5 +34,5 @@
 </template>
 
 <script setup>
-import ProjectSection from "../ProjectSection.vue";
+import ProjectSection from "../ProjectSection2.vue";
 </script>

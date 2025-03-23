@@ -18,20 +18,12 @@
             <br>
             <p class="font-light leading-7 text-base">I love creating. Whether its software or hardware or even music. I
               am always doing a project</p>
-              <img src="../assets/stars.png" alt="stars" class="w-1/2 mx-auto object-cover">
+            <img src="../assets/stars.png" alt="stars" class="w-1/2 mx-auto object-cover">
+            <p>contact info here i guess</p>
           </div>
-          <div class="w-1/2 h-full flex flex-col">
-            <div class="border border-white p-6 border-b-0 hover:cursor-pointer"> <h2 class="text-lg tracking-normal">Tattoo Robot</h2> </div>
-            <div class="border border-white p-6 border-b-0 hover:cursor-pointer"> <h2 class="text-lg tracking-normal float-right">Hungry Monkeys</h2> </div>
-            <div class="border border-white p-6 border-b-0 hover:cursor-pointer"> <h2 class="text-lg tracking-normal">Alarm Clock</h2> </div>
-            <div class="border border-white p-6 border-b-0 hover:cursor-pointer"> <h2 class="text-lg tracking-normal float-right">Pirate Plunge</h2> </div>
-            <div class="border border-white p-6 border-b-0 hover:cursor-pointer"> <h2 class="text-lg tracking-normal">Watch Winder</h2> </div>
-            <div class="border border-white p-6 hover:cursor-pointer"> <h2 class="text-lg tracking-normal float-right">Hungry Monkeys</h2> </div>
-            <div class="border border-white p-6 hover:cursor-pointer"> <h2 class="text-lg tracking-normal float-right">https://www.adamshams.com/</h2> </div>
-
-          </div>
+          <ProjectSection></ProjectSection>
         </div>
-        
+
       </div>
     </div>
 
@@ -40,6 +32,7 @@
 </template>
 
 <script setup>
+import ProjectSection from "@/components/ProjectSection.vue";
 import NameHeader from "../components/NameHeader5.vue";
 
 </script>
