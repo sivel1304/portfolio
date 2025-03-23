@@ -4,7 +4,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import { createWebHistory, createRouter } from 'vue-router'
 
-import HomeView from './views/HomeView2.vue'
+import HomeView from './views/HomeView.vue'
 import AboutView from './views/AboutView.vue'
 import ProjectsView from './views/ProjectsView.vue'
 

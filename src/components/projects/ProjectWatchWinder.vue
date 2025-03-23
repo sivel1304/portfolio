@@ -18,7 +18,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import ProjectSection from "../ProjectSection.vue";
+import ProjectSection from "../ProjectSection2.vue";
 
 // Dynamically import images
 const images = ref(Object.values(import.meta.glob('../../assets/project-images/watch-winder/*.jpg', { eager: true, import: 'default' })));
