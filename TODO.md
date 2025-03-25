@@ -7,3 +7,6 @@
 - Lav Project sectionen på homeview færdig
 - Lav alle project sections på projectview~~
 - fiks udfra det her: <https://youtu.be/88XxC0_zs74?si=y8i5uRESuUIrYDg9>
+
+<https://www.adamshams.com/>
+<https://www.ronilevi.com/>
