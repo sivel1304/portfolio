@@ -17,5 +17,5 @@
 </template>
 
 <script setup>
-import ProjectSection from "../ProjectSection2.vue";
+import ProjectSection from "../ProjectSection.vue";
 </script>
