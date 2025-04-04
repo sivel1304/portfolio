@@ -1,5 +1,5 @@
 <template>
-    <div class="w-1/3 h-full flex flex-col pr-20">
+    <div class="w-1/3 h-full flex flex-col mr-20">
             <h2 class="text-3xl mb-8">About Me</h2>
             <p class="font-light leading-7 text-base">Hi, my name is Viktor Nielsen. I'm a 24 year old student currently
               studying Masters in IT-Product Development on Aarhus University </p>

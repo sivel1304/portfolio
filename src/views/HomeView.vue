@@ -24,7 +24,7 @@
 
 <script setup>
 import ProjectOverview from "@/components/ProjectOverview.vue";
-import NameHeader from "../components/NameHeader5.vue";
+import NameHeader from "../components/NameHeader.vue";
 import AboutSection from "@/components/AboutSection.vue";
 
 

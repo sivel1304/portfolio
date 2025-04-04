@@ -95,7 +95,7 @@
 </template>
 
 <script setup>
-import NameHeader from "../components/NameHeader5.vue";
+import NameHeader from "../components/NameHeader.vue";
 import PortSection from "../components/PortSection.vue";
 import { onMounted } from "vue"; // Import onMounted lifecycle hook
 import WebGL from "three/addons/capabilities/WebGL.js";
