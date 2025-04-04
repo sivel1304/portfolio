@@ -24,11 +24,13 @@
       </div>
     </template>
     <template v-slot:image>
-      <video controls class="w-full h-auto rounded-sm">
-        <source src="../../assets/project-images/plank-plunge.mp4" type="video/mp4" />
+      <div class="w-full justify-center">
+        <video controls class="w-full h-auto rounded-sm">
+        <source src="../../assets/project-images/plank-plunge/plank-plunge.mp4" type="video/mp4" />
         <!-- Fallback text if the video cannot be played -->
         Your browser does not support the video tag.
       </video>
+      </div>
     </template>
   </ProjectSection>
 </template>
