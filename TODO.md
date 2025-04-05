@@ -6,10 +6,18 @@
 - Lav projects
   - fix text stuff i projects
   - Alarm
+    - ~~images~~
+    - Desc
   - ~~Plank Plunge~~
   - Robot
+    - ~~images~~
+    - Desc
   - Hungry Monkey
+    - images
+    - Desc
   - Watch Winder
+    - ~~images~~
+    - Desc
   - Other
   - Fussball:
     - <https://docs.google.com/presentation/d/1fvnH5b7OJrkvojBaK1-UaBreXhUkNqFBletnrcd_ux4/edit?usp=sharing>
