@@ -10,6 +10,11 @@
       <div class="w-3/4 grid grid-cols-2 gap-5 justify-center">
         <img v-for="(image, index) in images" :key="index" :src="image" alt="Tattoo Robot Image"
           :class="getImageClass(index)" class="mx-auto" />
+        <video controls class="col-span-2 rounded-sm">
+          <source src="../../assets/project-images/robot/video4.mp4" type="video/mp4" />
+          <!-- Fallback text if the video cannot be played -->
+          Your browser does not support the video tag.
+        </video>
         <video controls class="rounded-sm">
           <source src="../../assets/project-images/robot/video1.mp4" type="video/mp4" />
           <!-- Fallback text if the video cannot be played -->
@@ -21,10 +26,10 @@
           Your browser does not support the video tag.
         </video>
         <video controls class="rounded-sm">
-        <source src="../../assets/project-images/robot/video3.mp4" type="video/mp4" />
-        <!-- Fallback text if the video cannot be played -->
-        Your browser does not support the video tag.
-      </video>
+          <source src="../../assets/project-images/robot/video3.mp4" type="video/mp4" />
+          <!-- Fallback text if the video cannot be played -->
+          Your browser does not support the video tag.
+        </video>
       </div>
     </template>
   </ProjectSection>
