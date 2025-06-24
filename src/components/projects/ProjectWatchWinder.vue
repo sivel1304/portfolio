@@ -1,8 +1,8 @@
 <template>
-  <ProjectSection title="Watch Winder" :tools="['...', '...', '...']">
+  <ProjectSection title="Watch Winder" :tools="['Fusion360', 'Arduino', 'C/C++', 'Creality 3D Printing']">
     <template v-slot:description>
       <p class="opacity-90">
-        some explanation here...
+        I designed and built this automatic watch winder from scratch. The result is a functional and stylish device that keeps automatic watches wound and ready to wear.
       </p>
     </template>
 
