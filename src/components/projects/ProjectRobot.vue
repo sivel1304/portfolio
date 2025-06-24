@@ -1,10 +1,15 @@
 <template>
-  <ProjectSection class="bg-backgrund-900" title="Tattoo Robot" :tools="['...', '...', '...']">
+  <ProjectSection class="bg-backgrund-900" title="Tattoo Robot" :tools="['Vue, JS, Electron', 'GRBL', 'Python, OpenCV', 'Arduino, C/C++']">
     <template v-slot:description>
       <p class="opacity-90">
-        some explanation here...
+        My tattoo robot is a project, which is still in development. The goal is to create a robot that can
+        tattoo a person with a design that is uploaded to the robot. It is basically a CNC machine but with an tatgun attached.
+        Software created for it aswell. UI for choosing tattoos (<a class="text-primary" href="https://github.com/sivel1304/robot-desktop">Github</a>), GCODE generator to create the GCODE from the tattoo images (<a class="text-primary" href="https://github.com/sivel1304/python-opencv">Github</a>), and computer vision to detect the skin and adjust the tattoo position.
+        Newly added a BTT SKR Mini E3 board to control the robot.
       </p>
+  
     </template>
+
 
     <template v-slot:image>
       <div class="w-3/4 grid grid-cols-2 gap-5 justify-center">

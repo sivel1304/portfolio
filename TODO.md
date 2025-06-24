@@ -1,23 +1,13 @@
 # TODO List
 
-- ~~Ændre homeview til at være mere som ProjectView. Især med snapping. Det ligemeget med effekten hvor det går over billedet. Vi skal bare scrolle~~
-- Lav aboutme view
-  - fix stars
 - Lav projects
-  - fix text stuff i projects
   - Alarm
-    - ~~images~~
-    - Desc
-  - ~~Plank Plunge~~
-  - Robot
     - ~~images~~
     - Desc
   - Hungry Monkey
     - images
     - Desc
-  - Watch Winder
-    - ~~images~~
-    - Desc
+  - DoMo
   - Other
   - Fussball:
     - <https://docs.google.com/presentation/d/1fvnH5b7OJrkvojBaK1-UaBreXhUkNqFBletnrcd_ux4/edit?usp=sharing>
