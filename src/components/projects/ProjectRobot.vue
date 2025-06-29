@@ -15,26 +15,22 @@
       <div class="w-3/4 grid grid-cols-2 gap-5 justify-center">
         <img v-for="(image, index) in images" :key="index" :src="image" alt="Tattoo Robot Image"
           :class="getImageClass(index)" class="mx-auto" />
-        <video controls class="col-span-2 rounded-sm">
-          <source src="../../assets/project-images/robot/video4.mp4" type="video/mp4" />
-          <!-- Fallback text if the video cannot be played -->
-          Your browser does not support the video tag.
-        </video>
-        <video controls class="rounded-sm">
-          <source src="../../assets/project-images/robot/video1.mp4" type="video/mp4" />
-          <!-- Fallback text if the video cannot be played -->
-          Your browser does not support the video tag.
-        </video>
-        <video controls class="rounded-sm">
-          <source src="../../assets/project-images/robot/video2.mp4" type="video/mp4" />
-          <!-- Fallback text if the video cannot be played -->
-          Your browser does not support the video tag.
-        </video>
-        <video controls class="rounded-sm">
-          <source src="../../assets/project-images/robot/video3.mp4" type="video/mp4" />
-          <!-- Fallback text if the video cannot be played -->
-          Your browser does not support the video tag.
-        </video>
+
+        <iframe class="col-span-1 rounded-sm mx-auto" width="500" height="360" title="vimeo-player"
+          src="https://player.vimeo.com/video/1097334984?h=d08eeff3c0"
+          allow="autoplay; fullscreen; picture-in-picture"></iframe>
+
+        <iframe class="col-span-1 rounded-sm mx-auto" width="400" height="360" title="vimeo-player"
+          src="https://player.vimeo.com/video/1097335014?h=8237891505"
+          allow="autoplay; fullscreen; picture-in-picture"></iframe>
+          
+        <iframe class="col-span-1 rounded-sm mx-auto" width="400" height="640" title="vimeo-player"
+          src="https://player.vimeo.com/video/1097335003?h=acf2443236"
+          allow="autoplay; fullscreen; picture-in-picture"></iframe>
+
+        <iframe class="col-span-1 rounded-sm mx-auto mb-10" width="400" height="640" title="vimeo-player"
+          src="https://player.vimeo.com/video/1097334991?h=485e78c31b"
+          allow="autoplay; fullscreen; picture-in-picture"></iframe>
       </div>
     </template>
   </ProjectSection>

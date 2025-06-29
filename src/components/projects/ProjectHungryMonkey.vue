@@ -35,11 +35,9 @@
                 <img v-for="(image, index) in images" :key="index" :src="image" alt="Watch Winder Image"
                     :class="getImageClass(index)" class="mx-auto" />
 
-                <video controls class="col-span-2 mx-auto rounded-sm w-96">
-                    <source src="../../assets/project-images/hungry-monkeys/video1.mp4" type="video/mp4" />
-                    <!-- Fallback text if the video cannot be played -->
-                    Your browser does not support the video tag.
-                </video>
+                <iframe class="col-span-2 rounded-sm mx-auto mb-10" width="640" height="640" title="vimeo-player"
+                    src="https://player.vimeo.com/video/1097334954?h=2c4fe4bebc"
+                    allow="autoplay; fullscreen; picture-in-picture"></iframe>
             </div>
         </template>
     </ProjectSection>

@@ -2,21 +2,19 @@
   <ProjectSection title="Watch Winder" :tools="['Fusion360', 'Arduino', 'C/C++', 'Creality 3D Printing']">
     <template v-slot:description>
       <p class="opacity-90">
-        I designed and built this automatic watch winder from scratch. The result is a functional and stylish device that keeps automatic watches wound and ready to wear.
+        I designed and built this automatic watch winder from scratch. The result is a functional and stylish device
+        that keeps automatic watches wound and ready to wear.
       </p>
     </template>
 
     <template v-slot:image>
       <div class="w-3/4 grid grid-cols-2 gap-5 justify-center">
         <img v-for="(image, index) in images" :key="index" :src="image" alt="Watch Winder Image"
-        :class="getImageClass(index)" class="mx-auto"/>
-        <video controls class="col-span-2 h-auto rounded-sm">
-        <source src="../../assets/project-images/watch-winder/video1.mp4" type="video/mp4" />
-        <!-- Fallback text if the video cannot be played -->
-        Your browser does not support the video tag.
-      </video>
+          :class="getImageClass(index)" class="mx-auto" />
+        <iframe class="col-span-2 rounded-sm mx-auto" width="640" height="360" title="vimeo-player"
+          src="https://player.vimeo.com/video/1097335024?h=97bb90c885"
+          allow="autoplay; fullscreen; picture-in-picture"></iframe>
       </div>
-      
     </template>
   </ProjectSection>
 </template>

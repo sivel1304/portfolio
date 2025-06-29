@@ -1,9 +1,5 @@
 <template>
-  <ProjectSection
-    class=""
-    title="Plank Plunge"
-    :tools="['Unity 6', 'C# in Visual Studio', 'Audacity', 'Waveform 13']"
-  >
+  <ProjectSection class="" title="Plank Plunge" :tools="['Unity 6', 'C# in Visual Studio', 'Audacity', 'Waveform 13']">
     <template v-slot:description>
       <p class="opacity-90">
         Plank Plunge is a thrilling game developed for K-Jam 2024, inspired by the classic
@@ -16,20 +12,18 @@
 
       <div class="flex mt-4">
         <p class="opacity-90">You can try out the game on</p>
-        <a
-          href="https://sivel8k.itch.io/plank-plunge"
-          class="ml-1 underline underline-offset-2 text-primary"
-          ><p class="">itch.io</p></a
-        >
+        <a href="https://sivel8k.itch.io/plank-plunge" class="ml-1 underline underline-offset-2 text-primary">
+          <p class="">itch.io</p>
+        </a>
       </div>
     </template>
     <template v-slot:image>
-      <div class="w-full justify-center">
-        <video controls class="w-full h-auto rounded-sm">
-        <source src="../../assets/project-images/plank-plunge/plank-plunge.mp4" type="video/mp4" />
-        <!-- Fallback text if the video cannot be played -->
-        Your browser does not support the video tag.
-      </video>
+      <div class="flex justify-center">
+        <div class="relative mx-auto w-[70vw] pb-[37.125%] h-0">
+          <iframe class="absolute top-0 left-0 h-full w-[66vw]" title="vimeo-player"
+            src="https://player.vimeo.com/video/1097334866?h=b51e7b7e6f"
+            allow="autoplay; fullscreen; picture-in-picture"></iframe>
+        </div>
       </div>
     </template>
   </ProjectSection>
