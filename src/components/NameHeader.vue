@@ -3,7 +3,7 @@
         <div class="w-[35vw] h-[35vw] object-cover absolute -z-10 bg-backgrund-900"></div>
         <img class="w-[35vw] h-[35vw] object-cover absolute -z-10 opacity-80"
             src="../assets/pb2.jpg" alt="Picture of me">
-        <div class="absolute -z-20">
+        <div class="absolute -z-20 w-screen">
             <div class="flex justify-start overflow-hidden whitespace-nowrap">
                 <h1
                     class="text-3xl animate-text-roll font-inter tracking-[0.45em] font-bold text-center opacity-80">

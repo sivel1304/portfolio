@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-12 md:my-4 my-2">
+    <div class="w-screen h-12 md:my-4 my-2">
         <div class="flex w-1/2 md:w-1/4 h-full mx-auto justify-between bg-backgrund-800 rounded-full md:bg-opacity-0">
             <RouterLink to="/" class="flex w-1/3 hover:bg-backgrund-700 rounded-full justify-center items-center"><p :class="['text-sm', isActive('/') ? 'opacity-100' : 'opacity-40']">Home</p></RouterLink>
             <RouterLink to="/about" class="flex w-1/3 hover:bg-backgrund-700 rounded-full justify-center items-center"><p :class="['text-sm', isActive('/about') ? 'opacity-100' : 'opacity-40']">About Me</p></RouterLink>
