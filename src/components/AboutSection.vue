@@ -6,7 +6,7 @@
                 studying Masters in IT-Product Development on Aarhus University </p>
             </div>
             <p class="font-light leading-7 text-base">I love creating. Whether its software or hardware or even music. I
-              am always doing a project</p>
+              am always doing a project.</p>
             <p class="font-light leading-7 text-base">Check out some of my projects to the right! Or contact me below</p>
 
             <div class="flex w-3/4 mx-auto  items-center">
