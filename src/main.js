@@ -11,6 +11,8 @@ import ProjectRobot from './components/projects/ProjectRobot.vue'
 import ProjectAlarm from './components/projects/ProjectAlarm.vue'
 import ProjectPlankPlunge from './components/projects/ProjectPlankPlunge.vue'
 import ProjectWatchWinder from './components/projects/ProjectWatchWinder.vue'
+import ProjectHungryMonkeys from './components/projects/ProjectHungryMonkey.vue'
+import ProjectDoMo from './components/projects/ProjectDoMo.vue'
 
 const routes = [
   { path: '/', component: HomeView },
@@ -20,6 +22,10 @@ const routes = [
   { path: '/projects/alarm-clock', component: ProjectAlarm },
   { path: '/projects/plank-plunge', component: ProjectPlankPlunge },
   { path: '/projects/watch-winder', component: ProjectWatchWinder },
+  { path: '/projects/hungry-monkeys', component: ProjectHungryMonkeys },
+  { path: '/projects/domo', component: ProjectDoMo },
+
+
 
 
 

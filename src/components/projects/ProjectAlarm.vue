@@ -2,7 +2,6 @@
   <ProjectSection title="Alarm Clock" :tools="['...', '...', '...']">
     <template v-slot:description>
       <p class="opacity-90">
-        images like this => https://www.ronilevi.com
       </p>
     </template>
 
