@@ -6,7 +6,7 @@
     <ProjectItem title="DoMo" :is-right="false" image="domo/image1.jpg" route="/projects/domo"></ProjectItem>
     <ProjectItem title="Alarm Clock" :is-right="true" image="alarm-clock/image1.jpg" route="/projects/alarm-clock"></ProjectItem>
     <ProjectItem title="Plank Plunge" :is-right="false" image="plank-plunge/image1.png" route="/projects/plank-plunge"></ProjectItem>
-    <ProjectItem class="border-b" title="Other Projects" :is-right="true" route="/projects"></ProjectItem>
+    <ProjectItem class="border-b" title="Other Projects" image="discohug.jpg" :is-right="true" route="/projects"></ProjectItem>
 
   </div>
 </template>

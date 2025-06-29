@@ -18,8 +18,11 @@
 
     <ProjectP2P></ProjectP2P>
     <ProjectFussball></ProjectFussball>
+    <ProjectBachelor></ProjectBachelor>
+    <ProjectSensorBoards></ProjectSensorBoards>
+    <ProjectSitMan></ProjectSitMan>
     <ProjectSection class="" title="Other??" textColor=""
-      :tools="['SitMan', 'Lamp', 'EKSYS', 'DiscoHug', 'Sensor-boards', 'Bachelor AR']">
+      :tools="[ 'Sensor-boards',]">
     </ProjectSection>
   </div>
 </template>
@@ -30,5 +33,8 @@ import ProjectItem from "@/components/ProjectItem.vue";
 import ProjectSection from "../components/ProjectSection.vue";
 import ProjectP2P from "@/components/projects/ProjectP2P.vue";
 import ProjectFussball from "@/components/projects/ProjectFussball.vue";
+import ProjectBachelor from "@/components/projects/ProjectBachelor.vue";
+import ProjectSitMan from "@/components/projects/ProjectSitMan.vue";
+import ProjectSensorBoards from "@/components/projects/ProjectSensorBoards.vue";
 
 </script>

@@ -10,8 +10,8 @@
           <li v-for="(tool, index) in tools" :key="index">{{ tool }}</li>
         </ul>
       </div>
-      <div class="flex flex-col w-[calc(((100vw-10rem)/3)*2)] ml-[calc((100vw-10rem)/3)]">
-        <div class="flex ml-20 w-fit h-full justify-center">
+      <div class="flex flex-col w-[calc(((100vw-10rem)/3)*2)] ">
+        <div class="flex w-fit h-full justify-center">
           <slot name="image"> </slot>
         </div>
       </div>
