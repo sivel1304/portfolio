@@ -16,19 +16,19 @@
         <img v-for="(image, index) in images" :key="index" :src="image" alt="Tattoo Robot Image"
           :class="getImageClass(index)" class="mx-auto" />
 
-        <iframe class="col-span-1 rounded-sm mx-auto" width="500" height="360" title="vimeo-player"
+        <iframe class="md:col-span-1 col-span-2 rounded-sm mx-auto" width="500" height="360" title="vimeo-player"
           src="https://player.vimeo.com/video/1097334984?h=d08eeff3c0"
           allow="autoplay; fullscreen; picture-in-picture"></iframe>
 
-        <iframe class="col-span-1 rounded-sm mx-auto" width="400" height="360" title="vimeo-player"
+        <iframe class="md:col-span-1 col-span-2 rounded-sm mx-auto" width="400" height="360" title="vimeo-player"
           src="https://player.vimeo.com/video/1097335014?h=8237891505"
           allow="autoplay; fullscreen; picture-in-picture"></iframe>
           
-        <iframe class="col-span-1 rounded-sm mx-auto" width="400" height="640" title="vimeo-player"
+        <iframe class="md:col-span-1 col-span-2 rounded-sm mx-auto" width="400" height="640" title="vimeo-player"
           src="https://player.vimeo.com/video/1097335003?h=acf2443236"
           allow="autoplay; fullscreen; picture-in-picture"></iframe>
 
-        <iframe class="col-span-1 rounded-sm mx-auto mb-10" width="400" height="640" title="vimeo-player"
+        <iframe class="md:col-span-1 col-span-2 rounded-sm mx-auto mb-10" width="400" height="640" title="vimeo-player"
           src="https://player.vimeo.com/video/1097334991?h=485e78c31b"
           allow="autoplay; fullscreen; picture-in-picture"></iframe>
       </div>

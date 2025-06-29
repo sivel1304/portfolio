@@ -1,5 +1,5 @@
 <template>
-  <div class="w-2/3 h-full flex flex-col mt-3">
+  <div class="w-full md:w-2/3 h-full flex flex-col mt-3">
     <ProjectItem title="Tattoo Robot" :is-right="true" image="robot/image2.png" route="/projects/tatbot"></ProjectItem>
     <ProjectItem title="Watch Winder" :is-right="false" image="watch-winder/image98.png" route="/projects/watch-winder"></ProjectItem>
     <ProjectItem title="Hungry Monkeys" :is-right="true" image="hungry-monkeys/image1.png" route="/projects/hungry-monkeys"></ProjectItem>

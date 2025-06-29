@@ -2,32 +2,12 @@
     <ProjectSection title="Hungry Monkeys" text-color="text-xl" :tools="['Fusion360', 'C/C# in Arduino']">
         <template v-slot:description>
             <p class="opacity-90">
-                Hungry Monkeys is an outdoor ball-catching
-                game, designed for 6–8-year-old children with the
-                purpose of helping the kids develop their gross motor
-                skills. At the age of 6 children start to develop some of
-                the important gross motor skills. One of them being the
-                hand-eye coordination used when catching a ball,
-                another being sport that involves good physical control
-                which is developed around the age of 6. Hungry Monkeys
-                consists of 3 parts. The first part is the shooter,
-                and the other parts are two similar boxes shaped like
-                monkeys. The game consists of catching the
-                lightweight plastic balls, intended to be fruits, which the
-                shooter shoots up in the air. When a ball is fired, one of the monkeys' eyes will light up. The player
-                then
-                has to catch the ball and put it down in the mouth of the
-                monkey that lights up. After the two first rounds, it will
-                be random which monkey lights up. When the ball is
-                placed in the mouth of the right monkey, the next ball will
-                be fired. The game will continue until a set number of
-                balls are placed in the monkeys’ mouths. The display on
-                the shooter will then show the total time spent catching
-                and placing the balls. The goal is to complete the task in
-                the least amount of time possible. To start a new game,
-                the shooter has to be reloaded with balls and the next
-                round can begin. Players can either compete against each
-                other or work on improving their own personal best time.
+                Hungry Monkeys is an outdoor ball-catching game for 6-8 year olds, designed to develop gross motor
+                skills like hand-eye coordination and physical control. The game involves a shooter and two
+                monkey-shaped boxes. Players catch lightweight plastic balls ("fruits") shot from the shooter. One
+                monkey's eye lights up, indicating where the ball should be placed. After two rounds, the monkey
+                light-up becomes random. The game continues until a set number of balls are placed. The shooter displays
+                the total time, with the goal being the shortest time. Players can compete or improve personal bests.
             </p>
         </template>
         <template v-slot:image>
@@ -35,7 +15,7 @@
                 <img v-for="(image, index) in images" :key="index" :src="image" alt="Watch Winder Image"
                     :class="getImageClass(index)" class="mx-auto" />
 
-                <iframe class="col-span-2 rounded-sm mx-auto mb-10" width="640" height="640" title="vimeo-player"
+                <iframe class="col-span-2 rounded-sm mx-auto mb-10" width="450" height="450" title="vimeo-player"
                     src="https://player.vimeo.com/video/1097334954?h=2c4fe4bebc"
                     allow="autoplay; fullscreen; picture-in-picture"></iframe>
             </div>

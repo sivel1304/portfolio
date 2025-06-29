@@ -11,7 +11,7 @@
       <div class="w-3/4 grid grid-cols-2 gap-5 justify-center">
         <img v-for="(image, index) in images" :key="index" :src="image" alt="Watch Winder Image"
           :class="getImageClass(index)" class="mx-auto" />
-        <iframe class="col-span-2 rounded-sm mx-auto" width="640" height="360" title="vimeo-player"
+        <iframe class="col-span-2 rounded-sm" width="360" height="360" title="vimeo-player"
           src="https://player.vimeo.com/video/1097335024?h=97bb90c885"
           allow="autoplay; fullscreen; picture-in-picture"></iframe>
       </div>
