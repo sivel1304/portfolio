@@ -19,16 +19,9 @@
             <div class="w-3/4 grid grid-cols-2 gap-5 justify-center">
                 <img v-for="(image, index) in images" :key="index" :src="image" alt="DoMo Image"
                     :class="getImageClass(index)" class="mx-auto" />
-                <video controls class="col-span-2 rounded-sm">
-                    <source src="../../assets/project-images/domo/Product video.mp4" type="video/mp4" />
-                    <!-- Fallback text if the video cannot be played -->
-                    Your browser does not support the video tag.
-                </video>
-                <video controls class="col-span-2 rounded-sm">
-                    <source src="../../assets/project-images/domo/Process video.mp4" type="video/mp4" />
-                    <!-- Fallback text if the video cannot be played -->
-                    Your browser does not support the video tag.
-                </video>
+
+                <iframe class="col-span-2 rounded-sm mx-auto" width="640" height="360" title="vimeo-player" src="https://player.vimeo.com/video/1097322908?h=0d5e54bb20" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+                <iframe class="col-span-2 rounded-sm mx-auto" width="640" height="360" title="vimeo-player" src="https://player.vimeo.com/video/1097322946?h=559f19fb01" allow="autoplay; fullscreen; picture-in-picture"></iframe>
             </div>
         </template>
     </ProjectSection>
