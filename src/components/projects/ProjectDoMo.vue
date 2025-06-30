@@ -16,12 +16,27 @@
             </p>
         </template>
         <template v-slot:image>
-            <div class="w-3/4 grid grid-cols-2 gap-5 justify-center">
+            <div class="w-full grid grid-cols-2 gap-5 justify-center">
                 <img v-for="(image, index) in images" :key="index" :src="image" alt="DoMo Image"
                     :class="getImageClass(index)" class="mx-auto" />
 
-                <iframe class="col-span-2 rounded-sm mx-auto" width="640" height="360" title="vimeo-player" src="https://player.vimeo.com/video/1097322908?h=0d5e54bb20" allow="autoplay; fullscreen; picture-in-picture"></iframe>
-                <iframe class="col-span-2 rounded-sm mx-auto" width="640" height="360" title="vimeo-player" src="https://player.vimeo.com/video/1097322946?h=559f19fb01" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+                <div class="relative col-span-2 w-full overflow-hidden rounded-md shadow-lg"
+                    style="padding-top: 56.25%;">
+                    <iframe class="absolute top-0 left-0 w-full h-full"
+                        src="https://player.vimeo.com/video/1097322908?h=0d5e54bb20" title="vimeo player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="relative col-span-2 w-full overflow-hidden rounded-md shadow-lg"
+                    style="padding-top: 56.25%;">
+                    <iframe class="absolute top-0 left-0 w-full h-full"
+                        src="https://player.vimeo.com/video/1097322946?h=559f19fb01" title="vimeo player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
             </div>
         </template>
     </ProjectSection>

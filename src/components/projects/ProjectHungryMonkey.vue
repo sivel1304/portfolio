@@ -14,10 +14,15 @@
             <div class="w-3/4 grid grid-cols-2 gap-5 justify-center">
                 <img v-for="(image, index) in images" :key="index" :src="image" alt="Watch Winder Image"
                     :class="getImageClass(index)" class="mx-auto" />
+                <div class="relative col-span-2 w-full h-[66vh] overflow-hidden rounded-md shadow-lg mb-4"
+                    style="padding-top: 56.25%;">
+                    <iframe class="absolute top-0 left-0 w-full h-full"
+                        src="https://player.vimeo.com/video/1097334954?h=2c4fe4bebc" title="vimeo player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
 
-                <iframe class="col-span-2 rounded-sm mx-auto mb-10" width="450" height="450" title="vimeo-player"
-                    src="https://player.vimeo.com/video/1097334954?h=2c4fe4bebc"
-                    allow="autoplay; fullscreen; picture-in-picture"></iframe>
             </div>
         </template>
     </ProjectSection>

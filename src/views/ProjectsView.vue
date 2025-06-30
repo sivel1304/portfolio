@@ -1,7 +1,7 @@
 <template>
   <div class="">
 
-      <div class=" mx-auto pt-20 md:px-20 px-0 w-screen h-full flex flex-col mt-3">
+      <div class=" mx-auto pt-20 md:px-20 px-0 w-screen h-full flex flex-col">
         <ProjectItem title="Tattoo Robot" :is-right="true" image="robot/image2.png" route="/projects/tatbot">
         </ProjectItem>
         <ProjectItem title="Watch Winder" :is-right="false" image="watch-winder/image98.png"
