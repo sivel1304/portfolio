@@ -2,7 +2,7 @@
   <ProjectSection class="bg-backgrund-900" title="Tattoo Robot"
     :tools="['Vue, JS, Electron', 'GRBL', 'Python, OpenCV', 'Arduino, C/C++']">
     <template v-slot:description>
-      <p class="opacity-90">
+      <p class="opacity-90 ">
         My tattoo robot is a project, which is still in development. The goal is to create a robot that can
         tattoo a person with a design that is uploaded to the robot. It is basically a CNC machine but with an tatgun
         attached.
