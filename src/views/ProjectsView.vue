@@ -15,7 +15,7 @@
           route="/projects/plank-plunge" class="border border-white border-b-[1px]"></ProjectItem>
       </div>
 
-
+    <ProjectSketchNSow></ProjectSketchNSow>
     <ProjectP2P></ProjectP2P>
     <ProjectFussball></ProjectFussball>
     <ProjectBachelor></ProjectBachelor>
@@ -27,7 +27,7 @@
 
 <script setup>
 import ProjectItem from "@/components/ProjectItem.vue";
-
+import ProjectSketchNSow from "@/components/projects/ProjectSketchNSow.vue";
 import ProjectP2P from "@/components/projects/ProjectP2P.vue";
 import ProjectFussball from "@/components/projects/ProjectFussball.vue";
 import ProjectBachelor from "@/components/projects/ProjectBachelor.vue";
