@@ -2,7 +2,7 @@
     <div class="w-full md:w-1/3 px-4 h-full flex flex-col md:mr-20 justify-between">
             <div class="">
               <h2 class="text-3xl md:mb-8">About Me</h2>
-              <p class="font-light leading-7 text-base">Hi, my name is Viktor Nielsen. I'm a 25 year old student currently
+              <p class="font-light leading-7 text-base">Hi, my name is Viktor Nielsen. I'm a 26 year old student currently
                 studying Masters in IT-Product Development on Aarhus University </p>
             </div>
             <p class="font-light leading-7 text-base">I love creating. Whether its software or hardware or even music. I

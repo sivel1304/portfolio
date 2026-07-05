@@ -13,6 +13,9 @@ import ProjectPlankPlunge from './components/projects/ProjectPlankPlunge.vue'
 import ProjectWatchWinder from './components/projects/ProjectWatchWinder.vue'
 import ProjectHungryMonkeys from './components/projects/ProjectHungryMonkey.vue'
 import ProjectDoMo from './components/projects/ProjectDoMo.vue'
+import ProjectSketchNSow from './components/projects/ProjectSketchNSow.vue'
+import ProjectChestQuest from './components/projects/ProjectChestQuest.vue'
+import ProjectBachelor from './components/projects/ProjectBachelor.vue'
 
 const routes = [
   { path: '/', component: HomeView },
@@ -24,6 +27,11 @@ const routes = [
   { path: '/projects/watch-winder', component: ProjectWatchWinder },
   { path: '/projects/hungry-monkeys', component: ProjectHungryMonkeys },
   { path: '/projects/domo', component: ProjectDoMo },
+  { path: '/projects/sketch-n-sow', component: ProjectSketchNSow },
+  { path: '/projects/chest-quest', component: ProjectChestQuest },
+  { path: '/projects/bachelor', component: ProjectBachelor },
+
+
 
 
 
