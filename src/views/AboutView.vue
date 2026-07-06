@@ -28,8 +28,8 @@
           </template>
           <template v-slot:right>
             <p class="opacity-90 font-extralight">
-              I’m Viktor, a passionate builder, developer, and problem solver. I'm 24 years old, and are currently
-              studied masters in IT-Product Development in Aarhus University. I love creating things—especially when
+              I’m Viktor, a passionate builder, developer, and problem solver. I'm 26 years old, and i have a masters degree in IT-Product Development at Aarhus University. 
+              I love creating things—especially when
               electronics and programming come into play. Whether it’s designing smart home systems, developing
               interactive web applications, game development or experimenting with embedded systems like ATmega or ESP32, I’m always
               exploring new ways to bring ideas to life.
