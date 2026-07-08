@@ -1,24 +1,31 @@
 <template>
   <div class="">
+    <div class="flex flex-col items-center justify-center pt-24">
+        <h1 class="text-center">
+            My Projects
+        </h1>
+        <p class="text-center text-gray-600 mt-4">
+            Here are some of the projects I've worked on.
+        </p>
+    </div>
 
-
-    <div class=" mx-auto pt-20 md:px-20 px-0 w-screen h-full flex flex-col">
-      <ProjectItem title="Sketch-n-Sow" :is-right="true" image="sketch-n-sow/4-idea-in-packet.jpg"
+    <div class=" mx-auto pt-10 md:px-20 px-0 w-screen h-full flex flex-col">
+      <ProjectItem title="Sketch-n-Sow" description="MR Brainstorming Tool" :is-right="true" image="sketch-n-sow/4-idea-in-packet.jpg"
         route="/projects/sketch-n-sow"></ProjectItem>
-      <ProjectItem title="Tattoo Robot" :is-right="false" image="robot/image2.png" route="/projects/tatbot">
+      <ProjectItem title="Tattoo Robot" description="Homemade Tattoo Robot" :is-right="false" image="robot/image2.png" route="/projects/tatbot">
       </ProjectItem>
-      <ProjectItem title="Watch Winder" :is-right="true" image="watch-winder/image98.png"
+      <ProjectItem title="Watch Winder" description="Homemade watch winder" :is-right="true" image="watch-winder/image98.png"
         route="/projects/watch-winder"></ProjectItem>
-      <ProjectItem title="Hungry Monkeys" :is-right="false" image="hungry-monkeys/image1.png"
+      <ProjectItem title="Hungry Monkeys" description="Wireless ball-game for children" :is-right="false" image="hungry-monkeys/image1.png"
         route="/projects/hungry-monkeys"></ProjectItem>
-      <ProjectItem title="DoMo" :is-right="true" image="domo/image1.jpg" route="/projects/domo"></ProjectItem>
-      <ProjectItem title="Plank Plunge" :is-right="false" image="plank-plunge/image1.png"
+      <ProjectItem title="DoMo" description="Sustainable Development Project" :is-right="true" image="domo/image1.jpg" route="/projects/domo"></ProjectItem>
+      <ProjectItem title="Plank Plunge" description="Pirate Game" :is-right="false" image="plank-plunge/image1.png"
         route="/projects/plank-plunge"></ProjectItem>
-      <ProjectItem title="Chest Quest" :is-right="true" image="chest-quest/chest-quest1.png"
+      <ProjectItem title="Chest Quest" description="AR Treasure Hunt Game" :is-right="true" image="chest-quest/chest-quest1.png"
         route="/projects/chest-quest"></ProjectItem>
-        <ProjectItem title="AR Text Entry" :is-right="false" image="bachelor/4bachelor2.png"
+        <ProjectItem title="AR Text Entry" description="AR Text Input" :is-right="false" image="bachelor/4bachelor2.png"
         route="/projects/bachelor"></ProjectItem>
-      <ProjectItem title="Alarm Clock" :is-right="true" image="alarm-clock/image1.jpg" route="/projects/alarm-clock">
+      <ProjectItem title="Alarm Clock" description="Homemade Alarm Clock" :is-right="true" image="alarm-clock/image1.jpg" route="/projects/alarm-clock">
       </ProjectItem>
 
     </div>
