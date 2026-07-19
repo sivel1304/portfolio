@@ -60,12 +60,6 @@
   </PortSection>
 
   <div class="flex w-full justify-center items-center mb-4 md:mb-0">
-    <div class="group flex w-fit h-10 hover:cursor-pointer items-center">
-      <img src="../assets/icons/instagram.png" alt="instagram" class="h-5 opacity-40 group-hover:opacity-100 mr-2">
-      <p class="opacity-40 group-hover:opacity-100 ">Instagram</p>
-    </div>
-
-    <div class="h-6 w-[1px] bg-white opacity-20 mx-6"></div>
 
     <a href="https://www.linkedin.com/in/viktor-s-aa-nielsen/" target="_blank" rel="noopener noreferrer"
       class="group flex w-fit h-10 hover:cursor-pointer items-center">

@@ -9,7 +9,7 @@
         </p>
     </div>
 
-    <div class=" mx-auto pt-10 md:px-20 px-0 w-screen h-full flex flex-col">
+    <div class=" mx-auto pt-10 mb-20 md:px-20 px-0 w-screen h-full flex flex-col">
       <ProjectItem title="Sketch-n-Sow" description="MR Brainstorming Tool" :is-right="true" image="sketch-n-sow/4-idea-in-packet.jpg"
         route="/projects/sketch-n-sow"></ProjectItem>
       <ProjectItem title="Tattoo Robot" description="Homemade Tattoo Robot" :is-right="false" image="robot/image2.png" route="/projects/tatbot">
@@ -26,11 +26,12 @@
         <ProjectItem title="AR Text Entry" description="AR Text Input" :is-right="false" image="bachelor/4bachelor2.png"
         route="/projects/bachelor"></ProjectItem>
       <ProjectItem title="Alarm Clock" description="Homemade Alarm Clock" :is-right="true" image="alarm-clock/image1.jpg" route="/projects/alarm-clock">
+        </ProjectItem>
+      <ProjectItem title="Sports Tracking" description="IoT and P2P Sports Tracking" :is-right="false" image="p2p/circuit1.png" route="/projects/sports-tracking">
       </ProjectItem>
 
     </div>
 
-    <ProjectP2P></ProjectP2P>
     <ProjectFussball></ProjectFussball>
     <ProjectSensorBoards></ProjectSensorBoards>
     <ProjectDiscoHug></ProjectDiscoHug>
@@ -44,7 +45,6 @@
 
 <script setup>
 import ProjectItem from "@/components/ProjectItem.vue";
-import ProjectP2P from "@/components/projects/ProjectP2P.vue";
 import ProjectFussball from "@/components/projects/ProjectFussball.vue";
 import ProjectSensorBoards from "@/components/projects/ProjectSensorBoards.vue";
 import ProjectDiscoHug from "@/components/projects/ProjectDiscoHug.vue";
