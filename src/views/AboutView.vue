@@ -4,16 +4,11 @@
     <!-- hero -->
     <div
       class="relative px-5 md:px-16 pt-10 md:pt-[70px] pb-12 border-b border-white/10 bg-[linear-gradient(rgba(255,255,255,.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.05)_1px,transparent_1px)] bg-[length:48px_48px]">
-      <div class="flex flex-wrap justify-between items-center gap-8">
-        <div>
-          <div class="font-mono text-xs text-secondary tracking-[0.1em] mb-4">GET TO KNOW ME</div>
-          <h1 class="text-[clamp(38px,6vw,64px)] leading-none font-bold tracking-tight m-0">About Me</h1>
-          <p class="mt-6 max-w-[480px] text-[16px] leading-relaxed text-white/60 font-light">
-            I love creating, whether it's software, hardware, or music. Always building something.
-          </p>
-        </div>
-        <BracketPhoto size="200px" />
-      </div>
+      <div class="font-mono text-xs text-secondary tracking-[0.1em] mb-4">GET TO KNOW ME</div>
+      <h1 class="text-[clamp(38px,6vw,64px)] leading-none font-bold tracking-tight m-0">About Me</h1>
+      <p class="mt-6 max-w-[480px] text-[16px] leading-relaxed text-white/60 font-light">
+        I love creating, whether it's software, hardware, or music. Always building something.
+      </p>
     </div>
 
     <!-- info + bio -->
@@ -85,5 +80,4 @@
 </template>
 
 <script setup>
-import BracketPhoto from '@/components/BracketPhoto.vue';
 </script>
