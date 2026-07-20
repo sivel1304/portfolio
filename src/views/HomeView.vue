@@ -4,7 +4,7 @@
     <!-- hero -->
     <div
       class="relative px-5 md:px-16 pt-10 md:pt-[70px] pb-8 md:pb-14 border-b border-white/10 bg-[linear-gradient(rgba(255,255,255,.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.05)_1px,transparent_1px)] bg-[length:48px_48px]">
-      <div class="flex flex-wrap justify-between items-center gap-8">
+      <div class="flex flex-wrap justify-center md:justify-between items-center gap-8">
         <div class="flex-1 min-w-[280px]">
           <div class="font-mono text-xs text-secondary tracking-[0.1em] mb-4">SOFTWARE · HARDWARE · XR</div>
           <h1 class="text-[clamp(38px,6vw,64px)] leading-none font-bold tracking-tight m-0">Viktor Nielsen</h1>
@@ -23,7 +23,7 @@
             </a>
           </div>
         </div>
-        <BracketPhoto size="220px" />
+        <BracketPhoto size="clamp(160px,45vw,220px)" />
       </div>
     </div>
 
