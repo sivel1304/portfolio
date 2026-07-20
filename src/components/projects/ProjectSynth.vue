@@ -1,5 +1,5 @@
 <template>
-  <ShortProjectSection title="Disco Hug"></ShortProjectSection>
+  <ShortProjectSection title="Digital Synth"></ShortProjectSection>
 </template>
 
 <script setup>

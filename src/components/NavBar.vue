@@ -1,19 +1,26 @@
 <template>
-    <div class="w-screen h-12 md:my-4 my-2">
-        <div class="flex w-1/2 md:w-1/4 h-full mx-auto justify-between bg-backgrund-900 shadow-md rounded-full ">
-            <RouterLink to="/" class="flex w-1/3 hover:bg-backgrund-700 rounded-full justify-center items-center"><p :class="['text-sm', isActive('/') ? 'opacity-100' : 'opacity-40']">Home</p></RouterLink>
-            <RouterLink to="/about" class="flex w-1/3 hover:bg-backgrund-700 rounded-full justify-center items-center"><p :class="['text-sm', isActive('/about') ? 'opacity-100' : 'opacity-40']">About Me</p></RouterLink>
-            <RouterLink to="/projects" class="flex w-1/3 hover:bg-backgrund-700 rounded-full justify-center items-center"><p :class="['text-sm', isActive('/projects') ? 'opacity-100' : 'opacity-40']">Projects</p></RouterLink>
-        </div>
+  <div class="w-full flex justify-center pt-6">
+    <div class="flex gap-0.5 bg-white/5 border border-white/10 rounded-full p-1">
+      <RouterLink to="/" class="rounded-full px-[22px] py-[9px] text-[13px] font-medium transition-colors"
+        :class="isActive('/') ? 'bg-white text-backgrund-900' : 'text-white/50 hover:text-white/80'">
+        Home
+      </RouterLink>
+      <RouterLink to="/about" class="rounded-full px-[22px] py-[9px] text-[13px] font-medium transition-colors"
+        :class="isActive('/about') ? 'bg-white text-backgrund-900' : 'text-white/50 hover:text-white/80'">
+        About Me
+      </RouterLink>
+      <RouterLink to="/projects" class="rounded-full px-[22px] py-[9px] text-[13px] font-medium transition-colors"
+        :class="isActive('/projects') ? 'bg-white text-backgrund-900' : 'text-white/50 hover:text-white/80'">
+        Projects
+      </RouterLink>
     </div>
+  </div>
 </template>
 
 <script setup>
 import { useRoute } from 'vue-router';
 
-// Get the current route
 const route = useRoute();
 
-// Function to check if a path is active
 const isActive = (path) => route.path === path;
 </script>

@@ -1,22 +1,22 @@
 <template>
-  <ProjectSection title="Watch Winder" :tools="['Fusion360', 'Arduino', 'C/C++', 'Creality 3D Printing']">
+  <ProjectSection title="Watch Winder" :index="3" tagline="HOMEMADE WATCH WINDER"
+    :tools="['Fusion360', 'Arduino', 'C/C++', 'Creality 3D Printing']">
     <template v-slot:description>
-      <p class="opacity-90">
-        I designed and built this automatic watch winder from scratch. The result is a functional and stylish device
-        that keeps automatic watches wound and ready to wear.
+      <p class="text-[14.5px] leading-[1.75] text-white/75 font-light">
+        Designed and built from scratch: an automatic watch winder that keeps automatic watches wound and ready to
+        wear — a functional, stylish device from concept to 3D-printed final build.
       </p>
     </template>
 
     <template v-slot:image>
-      <div class="w-full grid grid-cols-2 gap-5 justify-center">
-        <img v-for="(image, index) in images" :key="index" :src="image" alt="Watch Winder Image"
-          :class="getImageClass(index)" class="mx-auto" />
-        <div class="relative col-span-2 w-full overflow-hidden rounded-md shadow-lg" style="padding-top: 56.25%;">
-          <iframe class="absolute top-0 left-0 w-full h-full"
-            src="https://player.vimeo.com/video/1097335024?h=97bb90c885" title="vimeo-player" frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"></iframe>
-        </div>
-
+      <div class="relative w-full pt-[56.25%] rounded-md border border-white/10 overflow-hidden">
+        <iframe class="absolute inset-0 w-full h-full border-0"
+          src="https://player.vimeo.com/video/1097335024?h=97bb90c885" title="Watch Winder video"
+          allow="autoplay; fullscreen; picture-in-picture"></iframe>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <img v-for="(image, index) in images" :key="index" :src="image" alt="Watch Winder"
+          class="w-full h-[260px] object-contain bg-surface rounded-md border border-white/10" />
       </div>
     </template>
   </ProjectSection>
@@ -26,13 +26,5 @@
 import { ref } from 'vue';
 import ProjectSection from "../ProjectSection.vue";
 
-// Dynamically import images
 const images = ref(Object.values(import.meta.glob('../../assets/project-images/watch-winder/*.{jpg,png}', { eager: true, import: 'default' })));
-
-// Function to determine the class for each image
-const getImageClass = (index) => {
-  if (index % 3 === 1 || index % 3 === 2) return 'col-span-1'; // Two images in the second row
-  return 'col-span-2'; // Single image in the next row
-};
-
 </script>

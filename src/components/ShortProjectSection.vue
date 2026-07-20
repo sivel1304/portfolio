@@ -1,20 +1,13 @@
 <template>
-  <div class="flex-col w-screen md:px-20 px-4">
-    <div class="flex md:flex-row flex-col w-full mx-auto md:pt-16 pt-8">
-      <div class="md:w-[calc((100vw-10rem)/3)]">
-        <h2 class="text-3xl mb-1" :class="textColor">{{ title }}</h2>
-        <h4 class="opacity-30 mb-1">Description</h4>
-        <slot name="description"> </slot>
-        <h4 class="opacity-30 mb-1 mt-8">Tools Used</h4>
-        <ul class="list-disc list-inside w-full *:opacity-90">
-          <li v-for="(tool, index) in tools" :key="index">{{ tool }}</li>
-        </ul>
-      </div>
-      <div class="flex flex-col md:w-[calc(((100vw-10rem)/3)*2)] ">
-        <div class="flex md:w-full h-full justify-center">
-          <slot name="image"> </slot>
-        </div>
-      </div>
+  <div>
+    <div class="flex items-baseline gap-2.5 mb-3">
+      <span class="font-mono text-[10.5px] text-white/40 border border-white/15 rounded px-1.5 py-0.5">WIP</span>
+      <h3 class="text-lg font-semibold m-0">{{ title }}</h3>
+    </div>
+    <p v-if="description" class="text-[14.5px] leading-[1.75] text-white/60 font-light mb-4 max-w-[600px]">{{ description }}</p>
+    <p v-else class="text-[14.5px] leading-[1.75] text-white/45 font-light mb-4">Write-up coming soon — check back for tools, process, and details.</p>
+    <div class="flex flex-col gap-4">
+      <slot name="image"></slot>
     </div>
   </div>
 </template>
@@ -22,7 +15,6 @@
 <script setup>
 defineProps({
   title: String,
-  textColor: String,
-  tools: Array,
+  description: { type: String, default: '' },
 });
 </script>
