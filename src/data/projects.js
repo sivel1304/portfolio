@@ -15,4 +15,5 @@ export const projects = [
   { n: 8, route: '/projects/bachelor', title: 'AR Text Entry', subtitle: 'AR Text Input Research', image: resolve('bachelor/4bachelor2.png') },
   { n: 9, route: '/projects/alarm-clock', title: 'Alarm Clock', subtitle: 'Homemade Alarm Clock', image: resolve('alarm-clock/image1.jpg') },
   { n: 10, route: '/projects/sports-tracking', title: 'Sports Tracking', subtitle: 'IoT and P2P Sports Tracking', image: resolve('p2p/circuit1.png') },
+  { n: 11, route: '/projects/protoboxes', title: 'ProtoBoxes', subtitle: 'Sensor & Actuator Demo Boxes', image: resolve('protoboxes/potbox/2-pot-main.jpg') },
 ];

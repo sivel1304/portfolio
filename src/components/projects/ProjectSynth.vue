@@ -1,5 +1,5 @@
 <template>
-  <ShortProjectSection title="Digital Synth"></ShortProjectSection>
+  <ShortProjectSection title="Orbiton V1 - Digital Synth"></ShortProjectSection>
 </template>
 
 <script setup>

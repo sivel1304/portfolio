@@ -27,15 +27,24 @@
         </div>
       </div>
 
-      <div class="flex-[2] min-w-[320px] flex flex-col gap-4">
+      <div class="flex-[2] min-w-[320px] flex flex-col gap-4" @click="onImageAreaClick">
         <slot name="image"></slot>
       </div>
     </div>
   </div>
+
+  <Teleport to="body">
+    <div v-if="lightbox" class="fixed inset-0 z-50 bg-[rgba(0,0,0,0.8)] backdrop-blur-md flex items-center justify-center p-6 cursor-zoom-out"
+      @click="lightbox = null">
+      <img :src="lightbox" class="max-w-full max-h-full object-contain rounded-md" @click.stop />
+      <button class="absolute top-5 right-6 text-white/70 hover:text-white text-3xl leading-none"
+        @click="lightbox = null">&times;</button>
+    </div>
+  </Teleport>
 </template>
 
 <script setup>
-import { computed } from 'vue';
+import { computed, ref, onMounted, onUnmounted } from 'vue';
 import { accentColors } from '@/data/projects';
 
 const props = defineProps({
@@ -49,4 +58,28 @@ const paddedIndex = computed(() => String(props.index).padStart(2, '0'));
 const headerColor = computed(() => accentColors[(props.index - 1) % accentColors.length]);
 const descColor = computed(() => accentColors[props.index % accentColors.length]);
 const toolsColor = computed(() => accentColors[(props.index + 1) % accentColors.length]);
+
+const lightbox = ref(null);
+
+const onImageAreaClick = (e) => {
+  if (e.target.tagName === 'IMG') lightbox.value = e.target.currentSrc || e.target.src;
+};
+
+const onKeydown = (e) => {
+  if (e.key === 'Escape') lightbox.value = null;
+};
+
+onMounted(() => window.addEventListener('keydown', onKeydown));
+onUnmounted(() => window.removeEventListener('keydown', onKeydown));
 </script>
+
+<style scoped>
+.flex-\[2\] :deep(img) {
+  cursor: zoom-in;
+  transition: opacity 0.15s;
+}
+
+.flex-\[2\] :deep(img:hover) {
+  opacity: 0.85;
+}
+</style>

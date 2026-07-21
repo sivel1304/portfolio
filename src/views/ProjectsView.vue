@@ -7,7 +7,7 @@
       <div class="font-mono text-xs text-secondary tracking-[0.1em] mb-4">SELECTED WORK</div>
       <h1 class="text-[clamp(38px,6vw,64px)] leading-none font-bold tracking-tight m-0">Projects</h1>
       <p class="mt-6 max-w-[480px] text-[16px] leading-relaxed text-white/60 font-light">
-        Software, hardware, and everything in between — ten builds spanning XR, robotics, games, and IoT.
+        Software, hardware, and everything in between — eleven builds spanning XR, robotics, games, and IoT.
       </p>
     </div>
 
@@ -21,11 +21,11 @@
     <div class="border-t border-white/10 px-5 md:px-16 pt-10 md:pt-14 pb-20">
       <div class="font-mono text-xs text-white/40 tracking-[0.1em] mb-8">MORE — WORK IN PROGRESS</div>
       <div class="flex flex-col gap-16">
+        <ProjectSynth></ProjectSynth>
         <ProjectFussball></ProjectFussball>
-        <ProjectSensorBoards></ProjectSensorBoards>
         <ProjectDiscoHug></ProjectDiscoHug>
         <ProjectFalafelFather></ProjectFalafelFather>
-        <ProjectSynth></ProjectSynth>
+        
       </div>
     </div>
 
@@ -36,7 +36,6 @@
 import ProjectCard from '@/components/ProjectCard.vue';
 import { projects } from '@/data/projects';
 import ProjectFussball from "@/components/projects/ProjectFussball.vue";
-import ProjectSensorBoards from "@/components/projects/ProjectSensorBoards.vue";
 import ProjectDiscoHug from "@/components/projects/ProjectDiscoHug.vue";
 import ProjectFalafelFather from "@/components/projects/ProjectFalafelFather.vue";
 import ProjectSynth from "@/components/projects/ProjectSynth.vue";
