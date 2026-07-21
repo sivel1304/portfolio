@@ -1,19 +1,21 @@
 <template>
     <ProjectSection title="DoMo" :index="5" tagline="SUSTAINABLE DEVELOPMENT PROJECT"
-        :tools="['Python', 'React', 'Supabase', 'C++', 'Vercel', 'TTN']">
+        :tools="['Raspberry Pi Zero W', 'Python', 'Heltec ESP32 (LoRa)', 'C++', 'React', 'Supabase', 'Vercel']">
         <template v-slot:description>
             <p class="text-[14.5px] leading-[1.75] text-white/75 font-light">
                 A low-cost, DIY monitoring system built to help the Danish Red Cross track donations of surplus
                 building materials from construction sites — field research showed reusable materials are often
                 discarded as waste for lack of a practical donation pipeline.
                 <br><br>
-                Instead of adding tasks for tradespeople, DoMo uses a simple camera box to take periodic photos of
-                donation areas and upload them to a website, letting volunteers remotely assess donation volume and
-                plan pickups.
+                A sustainability-focused system: a camera box uses a PIR sensor to protect tradespeople's privacy,
+                then wirelessly sends the images over LoRa — a long-range, low-power protocol for wireless
+                communication between distributed devices, chosen over WiFi and cellular for sites with no network
+                access and near-zero running cost. It's implemented on a Raspberry Pi in Python, handling on-site
+                sensor data collection and chunked wireless transmission for long-term, unattended operation.
                 <br><br>
-                Built with scalability and sustainability in mind — easy to replicate and deploy. Real-world testing
-                surfaced technical challenges but confirmed its value in supporting circular practices and donation
-                logistics.
+                Volunteers monitor donations remotely through a React and Supabase web dashboard. Real-world field
+                testing surfaced technical challenges around lighting, LoRa coverage, and battery life, but confirmed
+                the system's overall feasibility and value in supporting circular practices and donation logistics.
             </p>
         </template>
         <template v-slot:image>
