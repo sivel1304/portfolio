@@ -47,7 +47,7 @@
     <div class="px-5 md:px-16 pt-10 md:pt-14 pb-16">
       <div class="flex justify-between items-baseline gap-2 flex-wrap mb-7">
         <h2 class="text-[22px] font-semibold m-0">Projects</h2>
-        <span class="font-mono text-xs text-white/40">6 OF 11 SHOWN</span>
+        <span class="font-mono text-xs text-white/40">6 OF 12 SHOWN</span>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         <ProjectCard v-for="project in featuredProjects" :key="project.route" :project="project" />
