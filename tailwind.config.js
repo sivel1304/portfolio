@@ -8,7 +8,8 @@ export default {
       'primary': '#8083ff',
       'secondary': '#cc62f2',
       'third': '#ff3c52',
-      'backgrund': { 900: '#111111', 800: '#1f1f1f', 700: '#292929' },
+      'backgrund': { 900: '#0c0c0e', 800: '#1f1f1f', 700: '#292929' },
+      'surface': '#111113',
       'white': '#faf8ff'
     },
     fontSize: {
@@ -23,6 +24,7 @@ export default {
     fontFamily: {
       'inter': ['Inter', 'PP Neue Montreal Book', 'sans-serif'],
       'pp': ['PP Neue Montreal Book', 'Inter', 'sans-serif'],
+      'mono': ['JetBrains Mono', 'monospace'],
     },
     animation: {
       'text-roll': 'textRoll 15s linear infinite',

@@ -17,6 +17,8 @@ import ProjectSketchNSow from './components/projects/ProjectSketchNSow.vue'
 import ProjectChestQuest from './components/projects/ProjectChestQuest.vue'
 import ProjectBachelor from './components/projects/ProjectBachelor.vue'
 import ProjectSportTracking from './components/projects/ProjectSportTracking.vue'
+import ProjectProtoboxes from './components/projects/ProjectProtoboxes.vue'
+import ProjectSynth from './components/projects/ProjectSynth.vue'
 
 const routes = [
   { path: '/', component: HomeView },
@@ -32,6 +34,8 @@ const routes = [
   { path: '/projects/chest-quest', component: ProjectChestQuest },
   { path: '/projects/bachelor', component: ProjectBachelor },
   { path: '/projects/sports-tracking', component: ProjectSportTracking },
+  { path: '/projects/protoboxes', component: ProjectProtoboxes },
+  { path: '/projects/synth', component: ProjectSynth },
 
 
 
@@ -47,6 +51,11 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) return savedPosition
+    if (to.hash) return { el: to.hash }
+    return { top: 0 }
+  },
 })
 
 createApp(App)

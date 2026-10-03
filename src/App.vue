@@ -1,8 +1,6 @@
 <template>
-  <div class="h-fit w-screen scrollbar-hidden">
-    <nav class="snap-none">
-      <NavBar class="fixed z-10"></NavBar>
-    </nav>
+  <div class="min-h-screen w-screen scrollbar-hidden bg-backgrund-900 text-[#f2f0f5]">
+    <NavBar class="fixed top-0 inset-x-0 z-20"></NavBar>
     <router-view></router-view>
   </div>
 </template>
