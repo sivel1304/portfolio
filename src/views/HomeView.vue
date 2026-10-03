@@ -14,7 +14,7 @@
           </p>
         </div>
         <BracketPhoto class="hero-photo" size="clamp(160px,45vw,220px)" />
-        <div class="hero-cta flex justify-center md:justify-start gap-4">
+        <div class="hero-cta flex flex-wrap justify-center md:justify-start gap-4">
           <a href="mailto:viktor00@live.dk"
             class="border border-primary bg-primary text-backgrund-900 px-[26px] py-3 rounded-md text-[13px] font-semibold">
             Get in touch
@@ -22,6 +22,10 @@
           <a href="https://www.linkedin.com/in/viktor-s-aa-nielsen/" target="_blank" rel="noopener noreferrer"
             class="border border-white/20 text-white/80 px-[26px] py-3 rounded-md text-[13px] font-medium">
             LinkedIn ↗
+          </a>
+          <a href="https://github.com/sivel1304" target="_blank" rel="noopener noreferrer"
+            class="border border-white/20 text-white/80 px-[26px] py-3 rounded-md text-[13px] font-medium">
+            GitHub ↗
           </a>
         </div>
       </div>

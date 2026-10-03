@@ -62,10 +62,14 @@
           If you share an interest in creative tech solutions or have an exciting project idea, I'd love to connect!
         </p>
 
-        <div class="flex gap-4 mt-8">
+        <div class="flex flex-wrap gap-4 mt-8">
           <a href="https://www.linkedin.com/in/viktor-s-aa-nielsen/" target="_blank" rel="noopener noreferrer"
             class="border border-primary bg-primary text-backgrund-900 px-[26px] py-3 rounded-md text-[13px] font-semibold">
             LinkedIn ↗
+          </a>
+          <a href="https://github.com/sivel1304" target="_blank" rel="noopener noreferrer"
+            class="border border-white/20 text-white/80 px-[26px] py-3 rounded-md text-[13px] font-medium">
+            GitHub ↗
           </a>
           <a href="mailto:viktor00@live.dk"
             class="border border-white/20 text-white/80 px-[26px] py-3 rounded-md text-[13px] font-medium">
