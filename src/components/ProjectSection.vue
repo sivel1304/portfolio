@@ -25,6 +25,15 @@
               class="font-mono text-[11.5px] text-white/70 border border-white/15 rounded px-2.5 py-1.5">{{ tool }}</span>
           </div>
         </div>
+        <div v-if="links && links.length" class="border-t border-white/10 pt-5">
+          <div class="font-mono text-[11px] mb-2.5" :style="{ color: linksColor }">SOURCE CODE</div>
+          <div class="flex flex-col gap-2">
+            <a v-for="link in links" :key="link.href" :href="link.href" target="_blank" rel="noopener noreferrer"
+              class="border border-white/20 text-white/80 hover:text-white hover:border-white/40 px-4 py-2.5 rounded-md text-[13px] font-medium transition-colors">
+              {{ link.label }} ↗
+            </a>
+          </div>
+        </div>
       </div>
 
       <div class="flex-[2] min-w-[320px] flex flex-col gap-4" @click="onImageAreaClick">
@@ -52,12 +61,14 @@ const props = defineProps({
   index: { type: Number, default: 1 },
   tagline: { type: String, default: '' },
   tools: { type: Array, default: () => [] },
+  links: { type: Array, default: () => [] },
 });
 
 const paddedIndex = computed(() => String(props.index).padStart(2, '0'));
 const headerColor = computed(() => accentColors[(props.index - 1) % accentColors.length]);
 const descColor = computed(() => accentColors[props.index % accentColors.length]);
 const toolsColor = computed(() => accentColors[(props.index + 1) % accentColors.length]);
+const linksColor = computed(() => accentColors[(props.index + 2) % accentColors.length]);
 
 const lightbox = ref(null);
 

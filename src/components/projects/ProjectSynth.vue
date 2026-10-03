@@ -1,5 +1,6 @@
 <template>
-  <ProjectSection title="Orbiton V1" :index="12" tagline="DIGITAL SYNTHESIZER">
+  <ProjectSection title="Orbiton V1" :index="12" tagline="DIGITAL SYNTHESIZER"
+    :links="[{ label: 'Orbiton Synth on GitHub', href: 'https://github.com/sivel1304/orbiton-synth' }]">
     <template v-slot:description>
       <p class="text-[14.5px] leading-[1.75] text-white/75 font-light">
         A work in progress — full write-up, tools, and process notes coming soon.

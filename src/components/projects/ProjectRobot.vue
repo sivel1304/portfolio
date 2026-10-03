@@ -1,6 +1,10 @@
 <template>
   <ProjectSection title="Tattoo Robot" :index="2" tagline="HOMEMADE TATTOO ROBOT"
-    :tools="['Vue', 'JS', 'Electron', 'GRBL', 'Python', 'OpenCV', 'Arduino', 'C/C++']">
+    :tools="['Vue', 'JS', 'Electron', 'GRBL', 'Python', 'OpenCV', 'Arduino', 'C/C++']"
+    :links="[
+      { label: 'Desktop UI (robot-desktop)', href: 'https://github.com/sivel1304/robot-desktop' },
+      { label: 'GCODE generator (python-opencv)', href: 'https://github.com/sivel1304/python-opencv' },
+    ]">
     <template v-slot:description>
       <p class="text-[14.5px] leading-[1.75] text-white/75 font-light">
         A project still in development: a CNC-style machine with a tattoo gun attached, aiming to tattoo a design
