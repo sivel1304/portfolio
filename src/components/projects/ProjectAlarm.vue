@@ -1,5 +1,5 @@
 <template>
-  <ProjectSection title="Alarm Clock" :index="9" tagline="HOMEMADE ALARM CLOCK">
+  <ProjectSection title="Alarm Clock" :index="11" tagline="HOMEMADE ALARM CLOCK">
     <template v-slot:description>
       <p class="text-[14.5px] leading-[1.75] text-white/75 font-light">
         A homemade alarm clock build. Write-up coming soon — check back for tools, process, and details.

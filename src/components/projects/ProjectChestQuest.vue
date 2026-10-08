@@ -1,5 +1,5 @@
 <template>
-    <ProjectSection title="Chest Quest" :index="7" tagline="AR TREASURE HUNT GAME"
+    <ProjectSection title="Chest Quest" :index="9" tagline="AR TREASURE HUNT GAME"
         :tools="['Unity 6.3', 'C#', 'Google ARCore', 'Firebase Realtime DB']">
         <template v-slot:description>
             <p class="text-[14.5px] leading-[1.75] text-white/75 font-light">

@@ -1,5 +1,5 @@
 <template>
-  <ProjectSection title="ProtoBoxes" :index="11" tagline="SENSOR & ACTUATOR DEMO BOXES"
+  <ProjectSection title="ProtoBoxes" :index="7" tagline="SENSOR & ACTUATOR DEMO BOXES"
     :tools="['ESP32-C3', 'KiCad', 'C/C++', 'Laser-Cut Enclosures']">
     <template v-slot:description>
       <p class="text-[14.5px] leading-[1.75] text-white/75 font-light">

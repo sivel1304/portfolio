@@ -1,5 +1,5 @@
 <template>
-  <ProjectSection title="Watch Winder" :index="3" tagline="HOMEMADE WATCH WINDER"
+  <ProjectSection title="Watch Winder" :index="8" tagline="HOMEMADE WATCH WINDER"
     :tools="['Fusion360', 'Arduino', 'C/C++', 'Creality 3D Printing']">
     <template v-slot:description>
       <p class="text-[14.5px] leading-[1.75] text-white/75 font-light">
