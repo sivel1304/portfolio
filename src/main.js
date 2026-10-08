@@ -19,6 +19,7 @@ import ProjectBachelor from './components/projects/ProjectBachelor.vue'
 import ProjectSportTracking from './components/projects/ProjectSportTracking.vue'
 import ProjectProtoboxes from './components/projects/ProjectProtoboxes.vue'
 import ProjectSynth from './components/projects/ProjectSynth.vue'
+import ProjectIotHome from './components/projects/ProjectIotHome.vue'
 
 const routes = [
   { path: '/', component: HomeView },
@@ -36,6 +37,7 @@ const routes = [
   { path: '/projects/sports-tracking', component: ProjectSportTracking },
   { path: '/projects/protoboxes', component: ProjectProtoboxes },
   { path: '/projects/synth', component: ProjectSynth },
+  { path: '/projects/iothome', component: ProjectIotHome },
 
 
 

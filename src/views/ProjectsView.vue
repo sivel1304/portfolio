@@ -7,7 +7,7 @@
       <div class="font-mono text-xs text-secondary tracking-[0.1em] mb-4">SELECTED WORK</div>
       <h1 class="text-[clamp(38px,6vw,64px)] leading-none font-bold tracking-tight m-0">Projects</h1>
       <p class="mt-6 max-w-[480px] text-[16px] leading-relaxed text-white/60 font-light">
-        Software, hardware, and everything in between — twelve builds spanning XR, robotics, games, and IoT.
+        Software, hardware, and everything in between — thirteen builds spanning XR, robotics, games, and IoT.
       </p>
     </div>
 

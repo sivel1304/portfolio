@@ -1,5 +1,5 @@
 <template>
-    <ProjectSection title="AR Text Entry" :index="8" tagline="AR TEXT INPUT RESEARCH"
+    <ProjectSection title="AR Text Entry" :index="10" tagline="AR TEXT INPUT RESEARCH"
         :tools="['Unity 2022.3', 'MRTK3', 'C#', 'HoloLens 2']">
         <template v-slot:description>
             <p class="text-[14.5px] leading-[1.75] text-white/75 font-light">

@@ -1,5 +1,5 @@
 <template>
-    <ProjectSection title="Sports Tracking" :index="10" tagline="IOT AND P2P SPORTS TRACKING"
+    <ProjectSection title="Sports Tracking" :index="12" tagline="IOT AND P2P SPORTS TRACKING"
         :tools="['MQTT', 'SQLite3', 'ESP32 UWB DW3000', 'C', 'Arduino IDE', 'HTML', 'CSS', 'Javascript', 'Python', 'Flask']">
         <template v-slot:description>
             <p class="text-[14.5px] leading-[1.75] text-white/75 font-light">

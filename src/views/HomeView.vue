@@ -35,15 +35,15 @@
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-px bg-white/10 border-b border-white/10">
       <div class="bg-backgrund-900 px-8 py-6">
         <div class="font-mono text-[11px] text-primary mb-2">01 — LANGUAGES</div>
-        <div class="text-[13px] text-white/70 leading-relaxed">Java, JS/TS, C, C++, C#, Python</div>
+        <div class="text-[13px] text-white/70 leading-relaxed">C, C++, C#, Java, JS/TS, Python</div>
       </div>
       <div class="bg-backgrund-900 px-8 py-6">
         <div class="font-mono text-[11px] text-secondary mb-2">02 — STACK</div>
-        <div class="text-[13px] text-white/70 leading-relaxed">Vue, React, Unity, Electron, Firebase</div>
+        <div class="text-[13px] text-white/70 leading-relaxed">Vue, React, Unity, .NET, Tailwind, SQL</div>
       </div>
       <div class="bg-backgrund-900 px-8 py-6">
         <div class="font-mono text-[11px] text-third mb-2">03 — FOCUS</div>
-        <div class="text-[13px] text-white/70 leading-relaxed">XR, IoT, Embedded Systems &amp; Hardware</div>
+        <div class="text-[13px] text-white/70 leading-relaxed">XR, IoT, Embedded Systems, Fullstack</div>
       </div>
     </div>
 
@@ -51,7 +51,7 @@
     <div class="px-5 md:px-16 pt-10 md:pt-14 pb-16">
       <div class="flex justify-between items-baseline gap-2 flex-wrap mb-7">
         <h2 class="text-[22px] font-semibold m-0">Projects</h2>
-        <span class="font-mono text-xs text-white/40">6 OF 12 SHOWN</span>
+        <span class="font-mono text-xs text-white/40">6 OF 13 SHOWN</span>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         <ProjectCard v-for="project in featuredProjects" :key="project.route" :project="project" />
